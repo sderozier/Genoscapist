@@ -1,0 +1,103 @@
+<!--
+#     name : references.html
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+-->
+
+{% extends 'main' %}
+{% block content %}
+
+<section>
+
+<div style="margin-top: 80px;"></div>
+
+<script>
+  var name = JSON.parse('{{ name | tojson | safe }}');
+</script>
+
+<div class="card" style="margin-left: 15px; margin-right: 15px;">
+  <div class="card-body text-justify">
+
+{% if "B. subtilis" in name %}
+      <h5 class="text-info">Reference genome</h5>
+      <p><a href='https://www.ncbi.nlm.nih.gov/nuccore/AL009126.3/' target='_blank'>Bacillus subtilis subsp. subtilis str. 168</a></p>
+
+      <h5 class="text-info">Associated publication</h5>
+      <p>This Genoscapist website presents graphical representation of data from the following publication:
+      <pre>Nicolas P, Mäder U, Dervyn E, et al. Condition-dependent transcriptome reveals high-level regulatory architecture in Bacillus subtilis.<br/>Science. 2012;335(6072):1103-1106. doi:10.1126/science.1206848</pre></p>
+      <p><a href='https://doi.org/10.1126/science.1206848' target='_blank'>Direct link to the publication</a><br/>
+      <a href='http://genome.jouy.inra.fr/basysbio/bsubtranscriptome/' target='_blank'>Direct link to the supplementary data</a></p>
+
+      <h5 class="text-info">Associated GEO records</h5>
+      <table cellpadding=8 border="1">
+        <tbody>
+          <tr>
+            <th>Link</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27219" target='_blank'>GSE27219</a></td>
+            <td>Data from the 269 mRNA measurements of the wild-type strain</td>
+          </tr>
+          <tr>
+            <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27303" target='_blank'>GSE27303</a></td>
+            <td>Data from the 6 mRNA measurements to assess the role of Rho</td>
+          </tr>
+        </tbody>
+      </table><br/>
+
+{% else %}
+
+  <h5 class="text-info">Reference genome</h5>
+  <p><a href='https://www.ncbi.nlm.nih.gov/nuccore/CP000253.1' target='_blank'>Staphylococcus aureus subsp. aureus NCTC 8325</a></p>
+
+  <h5 class="text-info">Associated publication</h5>
+  <p>This Genoscapist website presents graphical representation of data from the following publication:
+  <pre>Mäder U, Nicolas P, Depke M, et al. Staphylococcus aureus Transcriptome Architecture: From Laboratory to Infection-Mimicking Conditions.
+PLoS Genet. 2016;12(4):e1005962. Published 2016 Apr 1. doi:10.1371/journal.pgen.1005962</pre></p>
+  <p><a href='https://doi.org/10.1371/journal.pgen.1005962' target='_blank'>Direct link to the publication</a><br/>
+  <a href='http://genome.jouy.inra.fr/aeb/supplementary_data.html' target='_blank'>Direct link to the supplementary data</a></p>
+
+  <h5 class="text-info">Associated GEO records</h5>
+  <table cellpadding=8 border="1">
+    <tbody>
+      <tr>
+        <th>Link</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70040" target = "_blank">GSE70040</a></td>
+        <td>Data from the 156 mRNA measurements of the wild-type strain</td>
+      </tr>
+      <tr>
+        <td><a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70041" target = "_blank">GSE70041</a></td>
+        <td>Data from the 16 mRNA measurements to assess the role of Rho</td>
+      </tr>
+    </tbody>
+  </table>
+
+{% endif %}
+
+    </div>
+  </div>
+  <div style="margin:80px 0;"></div>
+
+</section>
+{% endblock %}

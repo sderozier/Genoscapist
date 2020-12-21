@@ -1,0 +1,198 @@
+/**
+#
+#     name : main.css
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+**/
+
+.module .collapse, .module .collapsing {
+    height: 3rem;
+}
+.module .collapse {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.module .collapse:before {
+    /* content: ' ...'; */
+    /* position: absolute; */
+    /* right: 0; */
+    /* bottom: 0; */
+}
+.module .collapse.show {
+    height: auto;
+}
+.module .collapse.show:before {
+    display: none;
+}
+.module a.collapsed:after {
+    text-align: center;
+    content: url("data:image/svg+xml;charset=UTF-8,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-chevron-double-down' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> \
+                  <path fill-rule='evenodd' d='M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/> \
+                  <path fill-rule='evenodd' d='M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/> \
+                  </svg>");
+}
+.module a:not(.collapsed):after {
+    text-align: center;
+    content: url("data:image/svg+xml;charset=UTF-8,<svg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-chevron-double-up' fill='currentColor' xmlns='http://www.w3.org/2000/svg'> \
+                  <path fill-rule='evenodd' d='M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z'/> \
+                  <path fill-rule='evenodd' d='M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/> \
+                  </svg>");
+}
+
+/** Button Sample selection **/
+td.details-control {
+    background: url('../img/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../img/details_close.png') no-repeat center center;
+}
+
+/** Button **/
+.button {
+    border: 0;
+    line-height: 1.6;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(81, 110, 176);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(22, 51, 116, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.button:hover {
+    background-color: rgba(22, 51, 116);
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(22, 51, 116, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.col{
+    display: inline-block;
+    width: 40%;
+}
+
+/** Modal Samples selection **/
+.column {
+  width: 170px;
+}
+
+.column2 {
+  float: left;
+  width: 210px; // 170px;
+  padding: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn_s {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn_s:hover {
+  background-color: #ddd;
+}
+
+.btn_s.active {
+  background-color: #666;
+  color: white;
+}
+
+/** Modal **/
+.dialogstyleperso .ui-state-information {
+    border: 1px solid #2c2f81;
+    background: #3774a0;
+    background: -moz-linear-gradient(top, #3774a0 0%, #3774a0 55%, #316e9b 57%, #316e9b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3774a0 0%,#3774a0 55%,#316e9b 57%,#316e9b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3774a0 0%,#3774a0 55%,#316e9b 57%,#316e9b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3774a0', endColorstr='#316e9b',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.dialogstyleperso .ui-dialog-content {
+    background-color: lightblue;
+}
+
+.dialogstyleperso .ui-state-warning {
+    border: 1px solid #e36802;
+    background: #fd8119;
+    background: -moz-linear-gradient(top, #fd8119 0%, #fd8119 55%, #f8790f 57%, #f8790f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fd8119 0%,#fd8119 55%,#f8790f 57%,#f8790f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fd8119 0%,#fd8119 55%,#f8790f 57%,#f8790f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd8119', endColorstr='#f8790f',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.dialogstyleperso .ui-state-error {
+    border: 1px solid #cd0a0a;
+    background: #c71515;
+    background: -moz-linear-gradient(top, #c71515 0%, #c71515 55%, #b71d1d 57%, #b71d1d 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #c71515 0%,#c71515 55%,#b71d1d 57%,#b71d1d 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #c71515 0%,#c71515 55%,#b71d1d 57%,#b71d1d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c71515', endColorstr='#b71d1d',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.dialogstyleperso .ui-state-question,
+.dialogstyleperso .ui-state-neutral {
+    border: 1px solid #d4ccb0;
+    background: #f6f4ed;
+    background: -moz-linear-gradient(top, #f6f4ed 0%, #f6f4ed 55%, #f0ede1 57%, #f0ede1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f6f4ed 0%,#f6f4ed 55%,#f0ede1 57%,#f0ede1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f6f4ed 0%,#f6f4ed 55%,#f0ede1 57%,#f0ede1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f4ed', endColorstr='#f0ede1',GradientType=0 ); /* IE6-9 */
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.dialogstyleperso .ui-dialog-titlebar-close {
+    top: 12px;
+}
+
+.dialogstyleperso .ui-dialog-titlebar-close::before {
+    content: "\274c";
+    font-weight: bold;
+    font-size: 0.8em;
+}

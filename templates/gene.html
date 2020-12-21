@@ -1,0 +1,288 @@
+<!--
+#     name : gene.html
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+-->
+
+{% extends 'main2' %}
+{% block content %}
+
+<section>
+  <script type=text/javascript>
+    $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  </script>
+
+  <script>
+    var size = JSON.parse('{{ size | tojson | safe }}');
+    var seqlen = {{ seqlen }};
+    var samples = JSON.parse('{{ samples | tojson | safe }}');
+    var groups = JSON.parse('{{ groups | tojson | safe }}');
+    var rho_group_desc = JSON.parse('{{ rho_group_desc | tojson | safe }}');
+    var norm = JSON.parse('{{ norm | tojson | safe }}');
+    var rho = JSON.parse('{{ rho | tojson | safe }}');
+    var feat = JSON.parse('{{ feat | tojson | safe }}');
+    var path = JSON.parse('{{ path | tojson | safe }}');
+    var name = JSON.parse('{{ name | tojson | safe }}');
+    var min_CustomCDS = JSON.parse('{{ min_CustomCDS | tojson | safe }}');
+    var max_CustomCDS = JSON.parse('{{ max_CustomCDS | tojson | safe }}');
+    var min_Median = JSON.parse('{{ min_Median | tojson | safe }}');
+    var max_Median = JSON.parse('{{ max_Median | tojson | safe }}');
+    var selexp = JSON.parse('{{ selexp | tojson | safe }}');
+    var selcol = JSON.parse('{{ selcolor | tojson | safe }}');
+    var list_features = JSON.parse('{{ list_features | tojson | safe }}');
+  </script>
+
+  <div style="margin:80px 0;"></div>
+
+  {% if gene is defined %}
+    <script>
+      var gene = JSON.parse('{{ gene | tojson | safe}}');
+    </script>
+  {% else %}
+    <script>
+      var start = JSON.parse('{{ start | tojson | safe}}');
+    </script>
+  {% endif %}
+
+  <div class="card" style="margin-left: 5%;margin-right: 5%;">
+    <div class="card-header bg-info" style="color: white;">
+      {% if gene is defined %}
+      <div style="float:left;">Genomic View of {{ gene.locustag }} ({{ gene.name }})&nbsp;&nbsp;</div>
+      {% else  %}
+      <div style="float:left;">Genomic View&nbsp;&nbsp;</div>
+      {% endif  %}
+      <div id='g_spinner' style="float:left;" class="d-flex justify-content-center text-white">
+        <div id='geno_spinner' class="spinner-border" style="width: 1.5rem; height: 1.5rem;" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div align="center">
+        <img id="big_left" src="{{ url_for('static', filename='img/big_straf_left_seb.png') }}" width="26px"/>
+        <img id="small_left" src="{{ url_for('static', filename='img/small_straf_left_seb.png') }}" width="26px"/>
+        <img id="small_right" src="{{ url_for('static', filename='img/small_straf_right_seb.png') }}" width="26px"/>
+        <img id="big_right" src="{{ url_for('static', filename='img/big_straf_right_seb.png') }}" width="26px"/>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img id="zoom_in" src="{{ url_for('static', filename='img/zoom_in_seb.png') }}" width="26px"/>
+        <img id="zoom_small_in" src="{{ url_for('static', filename='img/zoom_small_in_seb.png') }}" width="26px"/>
+        <img id="zoom_neutral" src="{{ url_for('static', filename='img/zoom_default_seb.png') }}" width="26px"/>
+        <img id="zoom_small_out" src="{{ url_for('static', filename='img/zoom_small_out_seb.png') }}" width="26px"/>
+        <img id="zoom_out" src="{{ url_for('static', filename='img/zoom_out_seb.png') }}" width="26px"/>
+      </div>
+      <script type="module" src="{{ url_for('static', filename='js/event.js') }}"></script>
+
+      <!-- Genomic View -->
+      <script type="module" src="{{ url_for('static', filename='js/svg.js') }}"></script>
+      <div id = "svg_genomic_view" align="center"></div>
+    </div>
+  </div>
+
+  {% if gene %}
+    {% if gene.clustera %}
+    <div style="margin:10px 0;"></div>
+
+    <div class="card" style="margin-left: 5%;margin-right: 5%;">
+      <div class="card-header bg-info" style="color: white">
+        Details about expression for {{ gene.locustag }}
+      </div>
+      <div class="card-body">
+        <div align="justify" id="clusters"></div><br/>
+        <div align="justify" id="high_conditions"></div>
+        <div align="justify" id="low_conditions"></div>
+        <div align="justify" id="pos_segments"></div>
+        <div align="justify" id="neg_segments"></div>
+      </div>
+    </div>
+
+    <div style="margin:10px 0;"></div>
+
+    <div class="card" style="margin-left: 5%;margin-right: 5%;">
+      <div class="card-header bg-info" style="color: white">
+        Expression Profile of {{ gene.locustag }}
+      </div>
+      <div class="card-body">
+        <div align="center"><img id="profile" width="830px" height="519px" /></div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div style="margin:10px 0;"></div>
+
+    <div class="card" style="margin-left: 5%;margin-right: 5%;">
+      <div class="card-header bg-info" style="color: white">
+        Annotation of {{ gene.locustag }}
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">GenBank annotation</h5>
+                <div id="gb"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Additional informations</h5>
+                <div id="add"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <div style="margin:20px 0;"></div>
+
+  <!-- Sample description & color (modal) -->
+  <div class="modal fade" id="sampleModal" tabindex="-1" aria-labelledby="sampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="sampleModalLabel">Profile information</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <h5 id="name"></h5>
+          <p align="justify" id="description"></p>
+          <h5>Profile color</h5>
+          <input type="color" id="colorDialogID">
+          <svg id="reload" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-clockwise" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+            <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="{{ url_for('static', filename='js/modules/samples.js') }}"></script>
+
+  <!-- Modal (reannotation samples selection) -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="exampleModalLabel">Condition-dependent profile selection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  	<div class="col-md-12 text-center">
+            <div class="btn-group" role="group" aria-label="Basic example">
+    	    <button id='listView' type="button" class="btn btn-info active">List</button>
+    	    <button id='gridView' type="button" class="btn btn-info">Grid</button>
+  	  </div>
+  	</div>
+  	<br/>
+  	<div class="col-lg">
+  	  <div id="samplesList"></div>
+  	</div>
+        </div>
+        <div class="modal-footer">
+          <button id="discard" value='default' type="button" class="btn btn-info">Discard non-applied selection</button>
+  	      <button id="default" value='default' type="button" class="btn btn-info">Default</button>
+  	      <button id="none" value='none' type="button" class="btn btn-info">None</button>
+  	      <button id="all" value='all' type="button" class="btn btn-info">All</button>
+          <button id="apply" value='apply' type="button" class="btn btn-info" data-dismiss="modal">Apply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal (Rho samples selection) -->
+  <div class="modal fade" id="rhoSelectionModal" tabindex="-1" aria-labelledby="rhoSelectionModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="rhoSelectionModal"><i>rho</i>-mutant profile selection</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <table id="RhoSamples"></table>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button id="rho_apply" value='apply' type="button" class="btn btn-info" data-dismiss="modal">Apply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal (legend) -->
+  <div class="modal fade" id="legendModal" tabindex="-1" aria-labelledby="legendModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="legendModalLabel">Legend</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <img id="legend" src= "{{ url_for('static', filename='files/Legend.svg') }}"/>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button id="openTab" type="button" class="btn btn-info" data-dismiss="modal">Open in a new tab</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+  <!-- Modal (share) -->
+  <div class="modal fade" id="shareModal" tabindex="-1" aria-labelledby="shareModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-info" id="shareModalLabel">Share</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <input id="inpshare" type="text" class="form-control" aria-label="url" aria-describedby="button-share">
+            <div class="input-group-append">
+              <button class="btn btn-secondary btn-info copyButton" id="copyButtonId" data-id="" data-clipboard-action="copy" data-clipboard-target="input#inpshare">Copy to Clipboard</button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+{% endblock %}

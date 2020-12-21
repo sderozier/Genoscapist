@@ -1,0 +1,2885 @@
+LOCUS       AL009126             4215606 bp    DNA     circular BCT 16-MAR-2009
+DEFINITION  Bacillus subtilis subsp. subtilis str. 168 complete genome.
+ACCESSION   AL009126 Z99104-Z99124
+VERSION     AL009126.3  GI:225184640
+DBLINK      Project:76
+KEYWORDS    complete genome.
+SOURCE      Bacillus subtilis subsp. subtilis str. 168
+  ORGANISM  Bacillus subtilis subsp. subtilis str. 168
+            Bacteria; Firmicutes; Bacillales; Bacillaceae; Bacillus.
+REFERENCE   1  (bases 1 to 4215606)
+  AUTHORS   Kunst,F., Ogasawara,N., Moszer,I., Albertini,A.M., Alloni,G.,
+            Azevedo,V., Bertero,M.G., Bessieres,P., Bolotin,A., Borchert,S.,
+            Borriss,R., Boursier,L., Brans,A., Braun,M., Brignell,S.C.,
+            Bron,S., Brouillet,S., Bruschi,C.V., Caldwell,B., Capuano,V.,
+            Carter,N.M., Choi,S.K., Codani,J.J., Connerton,I.F., Cummings,N.J.,
+            Daniel,R.A., Denizot,F., Devine,K.M., Dusterhoft,A., Ehrlich,S.D.,
+            Emmerson,P.T., Entian,K.D., Errington,J., Fabret,C., Ferrari,E.,
+            Foulger,D., Fritz,C., Fujita,M., Fujita,Y., Fuma,S., Galizzi,A.,
+            Galleron,N., Ghim,S.Y., Glaser,P., Goffeau,A., Golightly,E.J.,
+            Grandi,G., Guiseppi,G., Guy,B.J., Haga,K., Haiech,J., Harwood,C.R.,
+            Henaut,A., Hilbert,H., Holsappel,S., Hosono,S., Hullo,M.F.,
+            Itaya,M., Jones,L., Joris,B., Karamata,D., Kasahara,Y.,
+            Klaerr-Blanchard,M., Klein,C., Kobayashi,Y., Koetter,P.,
+            Koningstein,G., Krogh,S., Kumano,M., Kurita,K., Lapidus,A.,
+            Lardinois,S., Lauber,J., Lazarevic,V., Lee,S.M., Levine,A., Liu,H.,
+            Masuda,S., Mauel,C., Medigue,C., Medina,N., Mellado,R.P.,
+            Mizuno,M., Moestl,D., Nakai,S., Noback,M., Noone,D., O'Reilly,M.,
+            Ogawa,K., Ogiwara,A., Oudega,B., Park,S.H., Parro,V., Pohl,T.M.,
+            Portetelle,D., Porwollik,S., Prescott,A.M., Presecan,E., Pujic,P.,
+            Purnelle,B., Rapoport,G., Rey,M., Reynolds,S., Rieger,M.,
+            Rivolta,C., Rocha,E., Roche,B., Rose,M., Sadaie,Y., Sato,T.,
+            Scanlan,E., Schleich,S., Schroeter,R., Scoffone,F., Sekiguchi,J.,
+            Sekowska,A., Seror,S.J., Serror,P., Shin,B.S., Soldo,B.,
+            Sorokin,A., Tacconi,E., Takagi,T., Takahashi,H., Takemaru,K.,
+            Takeuchi,M., Tamakoshi,A., Tanaka,T., Terpstra,P., Tognoni,A.,
+            Tosato,V., Uchiyama,S., Vandenbol,M., Vannier,F., Vassarotti,A.,
+            Viari,A., Wambutt,R., Wedler,E., Wedler,H., Weitzenegger,T.,
+            Winters,P., Wipat,A., Yamamoto,H., Yamane,K., Yasumoto,K., Yata,K.,
+            Yoshida,K., Yoshikawa,H.F., Zumstein,E., Yoshikawa,H. and
+            Danchin,A.
+  TITLE     The complete genome sequence of the gram-positive bacterium
+            Bacillus subtilis
+  JOURNAL   Nature 390 (6657), 249-256 (1997)
+   PUBMED   9384377
+REFERENCE   2  (bases 1 to 4215606)
+  AUTHORS   Barbe,V., Cruveiller,S., Kunst,F., Lenoble,P., Meurice,G.,
+            Sekowska,A., Vallenet,D., Wang,T., Moszer,I., Medigue,C. and
+            Danchin,A.
+  TITLE     From a consortium sequence to a unified sequence: The Bacillus
+            subtilis 168 reference genome a decade later
+  JOURNAL   Unpublished
+REFERENCE   3  (bases 1 to 4215606)
+  AUTHORS   Kunst,F., Ogasawara,N., Yoshikawa,H. and Danchin,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (18-NOV-1997) I. Moszer, A. Danchin, Institut Pasteur,
+            Regulation de l'Expression Genetique, 28 rue du Docteur Roux, 75724
+            Paris Cedex 15, FRANCE. E-mail: moszer@pasteur.fr,
+            adanchin@pasteur.fr Phone: +33 (0)1 45 68 84 41, Fax: +33 (0)1 45
+            68 89 48
+REFERENCE   4  (bases 1 to 4215606)
+  AUTHORS   Genoscope -,C.E.A.
+  CONSRTM   Institut Pasteur and Genoscope
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-JAN-2009) Genoscope - Centre National de Sequencage :
+            BP 191 91006 EVRY cedex - FRANCE (E-mail : seqref@genoscope.cns.fr
+            - Web : www.genoscope.cns.fr)
+COMMENT     On or before Mar 17, 2009 this sequence version replaced
+            gi:32468687, gi:32468690, gi:32468695, gi:32468704, gi:32468715,
+            gi:32468723, gi:32468738, gi:32468743, gi:32468745, gi:32468758,
+            gi:32468767, gi:32468778, gi:32468787, gi:32468796, gi:32468802,
+            gi:32468809, gi:32468813, gi:32468825, gi:32468830, gi:32468833,
+            gi:32468840, gi:38680335.
+            Annotation results relative to BLAST similarities, COG
+            assignations, enzymatic function prediction (PRIAM software), TMHMM
+            and SignalP predictions, and synteny conservation (Syntonizer
+            software) are available in the MaGe annotation system
+            http://www.genoscope.cns.fr/agc/mage.
+            The large cluster comprising the i, h and g rDNA regions could not
+            be properly resolved, we therefore incorporated the original
+            sequence of rRNAihg in the final assembly.
+FEATURES             Location/Qualifiers
+     source          1..4215606
+                     /organism="Bacillus subtilis subsp. subtilis str. 168"
+                     /mol_type="genomic DNA"
+                     /strain="168"
+                     /db_xref="taxon:224308"
+     gene            410..1750
+                     /gene="dnaA"
+                     /locus_tag="BSU00010"
+     CDS             410..1750
+                     /gene="dnaA"
+                     /locus_tag="BSU00010"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 16120674,
+                     1779750, 2167836, 2846289; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chromosomal replication initiator protein DnaA"
+                     /protein_id="CAB11777.1"
+                     /db_xref="GI:2632268"
+     gene            1939..3075
+                     /gene="dnaN"
+                     /locus_tag="BSU00020"
+     CDS             1939..3075
+                     /gene="dnaN"
+                     /locus_tag="BSU00020"
+                     /EC_number="2.7.7.7"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11395445, 12682299,
+                     2846289; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III (beta subunit)"
+                     /protein_id="CAB11778.1"
+                     /db_xref="GI:2632269"
+     gene            3206..3421
+                     /gene="yaaA"
+                     /locus_tag="BSU00030"
+     CDS             3206..3421
+                     /gene="yaaA"
+                     /locus_tag="BSU00030"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pf: putative factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative RNA binding protein"
+                     /protein_id="CAB11779.1"
+                     /db_xref="GI:2632270"
+     gene            3437..4549
+                     /gene="recF"
+                     /locus_tag="BSU00040"
+     CDS             3437..4549
+                     /gene="recF"
+                     /locus_tag="BSU00040"
+                     /function="16.6: Maintain"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15186413, 16061691,
+                     16385024; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA repair and genetic recombination factor"
+                     /protein_id="CAB11780.1"
+                     /db_xref="GI:2632271"
+     gene            4567..4812
+                     /gene="yaaB"
+                     /locus_tag="BSU00050"
+     CDS             4567..4812
+                     /gene="yaaB"
+                     /locus_tag="BSU00050"
+                     /function="18: Unknown function"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11781.2"
+                     /db_xref="GI:225184641"
+     gene            4867..6783
+                     /gene="gyrB"
+                     /locus_tag="BSU00060"
+     CDS             4867..6783
+                     /gene="gyrB"
+                     /locus_tag="BSU00060"
+                     /EC_number="5.99.1.3"
+                     /function="16.3: Control"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 12767818,
+                     17320901; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA gyrase (subunit B)"
+                     /protein_id="CAB11782.1"
+                     /db_xref="GI:2632273"
+     gene            6994..9459
+                     /gene="gyrA"
+                     /locus_tag="BSU00070"
+     CDS             6994..9459
+                     /gene="gyrA"
+                     /locus_tag="BSU00070"
+                     /EC_number="5.99.1.3"
+                     /function="16.3: Control"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 12767818,
+                     17320901; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA gyrase (subunit A)"
+                     /protein_id="CAB11783.1"
+                     /db_xref="GI:2632274"
+     gene            9810..11364
+                     /gene="rrnO-16S"
+                     /locus_tag="BSU_rRNA_1"
+     rRNA            9810..11364
+                     /gene="rrnO-16S"
+                     /locus_tag="BSU_rRNA_1"
+                     /product="ribosomal RNA-16S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            11464..11540
+                     /gene="trnO-Ile"
+                     /locus_tag="BSU_tRNA_5"
+     tRNA            11464..11540
+                     /gene="trnO-Ile"
+                     /locus_tag="BSU_tRNA_5"
+                     /product="tRNA-Ile"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            11552..11627
+                     /gene="trnO-Ala"
+                     /locus_tag="BSU_tRNA_6"
+     tRNA            11552..11627
+                     /gene="trnO-Ala"
+                     /locus_tag="BSU_tRNA_6"
+                     /product="tRNA-Ala"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            11709..14636
+                     /gene="rrnO-23S"
+                     /locus_tag="BSU_rRNA_2"
+     rRNA            11709..14636
+                     /gene="rrnO-23S"
+                     /locus_tag="BSU_rRNA_2"
+                     /product="ribosomal RNA-23S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            14692..14810
+                     /gene="rrnO-5S"
+                     /locus_tag="BSU_rRNA_3"
+     rRNA            14692..14810
+                     /gene="rrnO-5S"
+                     /locus_tag="BSU_rRNA_3"
+                     /product="ribosomal RNA-5S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            complement(14847..15794)
+                     /gene="yaaC"
+                     /locus_tag="BSU00080"
+     CDS             complement(14847..15794)
+                     /gene="yaaC"
+                     /locus_tag="BSU00080"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11784.1"
+                     /db_xref="GI:2632275"
+     gene            15915..17381
+                     /gene="guaB"
+                     /locus_tag="BSU00090"
+     CDS             15915..17381
+                     /gene="guaB"
+                     /locus_tag="BSU00090"
+                     /EC_number="1.1.1.205"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 1722815,
+                     17611193, 1979163, 3125411, 8917437; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="inosine-monophosphate dehydrogenase"
+                     /protein_id="CAB11785.1"
+                     /db_xref="GI:2632276"
+     gene            17534..18865
+                     /gene="dacA"
+                     /locus_tag="BSU00100"
+     CDS             17534..18865
+                     /gene="dacA"
+                     /locus_tag="BSU00100"
+                     /EC_number="3.4.16.4"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 8370539, 9864321; Product
+                     type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="D-alanyl-D-alanine carboxypeptidase
+                     (penicillin-binding protein 5)"
+                     /protein_id="CAB11786.1"
+                     /db_xref="GI:2632277"
+     gene            19062..19946
+                     /gene="pdxS"
+                     /locus_tag="BSU00110"
+     CDS             19062..19946
+                     /gene="pdxS"
+                     /locus_tag="BSU00110"
+                     /EC_number="4.-.-.-"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 14762015, 15771487,
+                     16157873; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="glutamine amidotransferase for pyridoxal
+                     phosphate synthesis"
+                     /protein_id="CAB11787.1"
+                     /db_xref="GI:2632278"
+     gene            19968..20558
+                     /gene="pdxT"
+                     /locus_tag="BSU00120"
+     CDS             19968..20558
+                     /gene="pdxT"
+                     /locus_tag="BSU00120"
+                     /EC_number="4.-.-.-"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 14762015, 15771487;
+                     Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="glutamine amidotransferase for pyridoxal
+                     phosphate synthesis"
+                     /protein_id="CAB11788.1"
+                     /db_xref="GI:2632279"
+     gene            20611..20823
+                     /gene="T-box"
+                     /locus_tag="BSU_misc_RNA_1"
+     misc_structure  20611..20823
+                     /gene="T-box"
+                     /locus_tag="BSU_misc_RNA_1"
+                     /evidence="{Rfam-9.1}"
+                     /gene_name="T-box {Rfam-9.1}"
+                     /db_xref="Rfam:RF00230"
+                     /product="T-box"
+                     /inference="profile:Rfam:8.1"
+     gene            20880..22157
+                     /gene="serS"
+                     /locus_tag="BSU00130"
+     CDS             20880..22157
+                     /gene="serS"
+                     /locus_tag="BSU00130"
+                     /EC_number="6.1.1.11"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10546897, 12682299,
+                     14732487; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="seryl-tRNA synthetase"
+                     /protein_id="CAB11789.1"
+                     /db_xref="GI:2632280"
+     gene            22292..22384
+                     /gene="trnSL-Ser1"
+                     /locus_tag="BSU_tRNA_7"
+     tRNA            22292..22384
+                     /gene="trnSL-Ser1"
+                     /locus_tag="BSU_tRNA_7"
+                     /product="tRNA-Ser"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            complement(22496..23149)
+                     /gene="dck"
+                     /locus_tag="BSU00140"
+     CDS             complement(22496..23149)
+                     /gene="dck"
+                     /locus_tag="BSU00140"
+                     /EC_number="2.7.1.76"
+                     /EC_number="2.7.1.74"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11078735, 6251049;
+                     Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="deoxyadenosine/deoxycytidine kinase"
+                     /protein_id="CAB11790.1"
+                     /db_xref="GI:2632281"
+     gene            complement(23146..23769)
+                     /gene="dgk"
+                     /locus_tag="BSU00150"
+     CDS             complement(23146..23769)
+                     /gene="dgk"
+                     /locus_tag="BSU00150"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11078735; Product type e:
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="deoxyguanosine kinase"
+                     /protein_id="CAB11791.1"
+                     /db_xref="GI:2632282"
+     gene            complement(23868..25151)
+                     /gene="yaaH"
+                     /locus_tag="BSU00160"
+     CDS             complement(23868..25151)
+                     /gene="yaaH"
+                     /locus_tag="BSU00160"
+                     /function="16.13: Shape"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11011148, 11737650,
+                     12177332, 10419957; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="spore peptidoglycan hydrolase"
+                     /protein_id="CAB11792.1"
+                     /db_xref="GI:2632283"
+     gene            complement(25221..25766)
+                     /gene="yaaI"
+                     /locus_tag="BSU00170"
+     CDS             complement(25221..25766)
+                     /gene="yaaI"
+                     /locus_tag="BSU00170"
+                     /EC_number="3.3.2.1"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 2521622; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative isochorismatase"
+                     /protein_id="CAB11793.1"
+                     /db_xref="GI:2632284"
+     gene            25852..26337
+                     /gene="tadA"
+                     /locus_tag="BSU00180"
+     CDS             25852..26337
+                     /gene="tadA"
+                     /locus_tag="BSU00180"
+                     /EC_number="3.5.-.-"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16014871, 16700551; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tRNA specific adenosine deaminase"
+                     /protein_id="CAB11794.1"
+                     /db_xref="GI:2632285"
+     gene            26533..26635
+                     /gene="scr"
+                     /locus_tag="BSU_misc_RNA_2"
+     misc_RNA        26533..26635
+                     /gene="scr"
+                     /locus_tag="BSU_misc_RNA_2"
+                     /ncRNA_class="SRP_RNA"
+                     /evidence="{Rfam-9.1}"
+                     /gene_name="SRP_bact {Rfam-9.1}"
+                     /db_xref="Rfam:RF00169"
+                     /product="small cytoplasmic RNA (scRNA, 4.5S RNA), signal
+                     recognition particle-like (SRP) component"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain"
+     gene            26814..28505
+                     /gene="dnaX"
+                     /locus_tag="BSU00190"
+     CDS             26814..28505
+                     /gene="dnaX"
+                     /locus_tag="BSU00190"
+                     /EC_number="2.7.7.7"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10844689, 12466528,
+                     12974630, 14757052, 9341154; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III (gamma and tau subunits)"
+                     /protein_id="CAB11795.2"
+                     /db_xref="GI:225184642"
+     gene            28529..28852
+                     /gene="yaaK"
+                     /locus_tag="BSU00200"
+     CDS             28529..28852
+                     /gene="yaaK"
+                     /locus_tag="BSU00200"
+                     /function="16.3: Control"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16740939; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA binding protein"
+                     /protein_id="CAB11796.1"
+                     /db_xref="GI:2632287"
+     gene            28867..29463
+                     /gene="recR"
+                     /locus_tag="BSU00210"
+     CDS             28867..29463
+                     /gene="recR"
+                     /locus_tag="BSU00210"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12065426; Product type f:
+                     factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA repair and recombination protein"
+                     /protein_id="CAB11797.1"
+                     /db_xref="GI:2632288"
+     gene            29481..29705
+                     /gene="yaaL"
+                     /locus_tag="BSU00220"
+     CDS             29481..29705
+                     /gene="yaaL"
+                     /locus_tag="BSU00220"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11798.1"
+                     /db_xref="GI:2632289"
+     gene            29772..30035
+                     /gene="bofA"
+                     /locus_tag="BSU00230"
+     CDS             29772..30035
+                     /gene="bofA"
+                     /locus_tag="BSU00230"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15087499; Product type r:
+                     regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="inhibitor of the pro-sigma(K) processing
+                     machinery"
+                     /protein_id="CAB11799.2"
+                     /db_xref="GI:225184643"
+     gene            30279..31832
+                     /gene="rrnA-16S"
+                     /locus_tag="BSU_rRNA_4"
+     rRNA            30279..31832
+                     /gene="rrnA-16S"
+                     /locus_tag="BSU_rRNA_4"
+                     /product="ribosomal RNA-16S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            31932..32008
+                     /gene="trnA-Ile"
+                     /locus_tag="BSU_tRNA_8"
+     tRNA            31932..32008
+                     /gene="trnA-Ile"
+                     /locus_tag="BSU_tRNA_8"
+                     /product="tRNA-Ile"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            32020..32095
+                     /gene="trnA-Ala"
+                     /locus_tag="BSU_tRNA_9"
+     tRNA            32020..32095
+                     /gene="trnA-Ala"
+                     /locus_tag="BSU_tRNA_9"
+                     /product="tRNA-Ala"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            32177..35103
+                     /gene="rrnA-23S"
+                     /locus_tag="BSU_rRNA_5"
+     rRNA            32177..35103
+                     /gene="rrnA-23S"
+                     /locus_tag="BSU_rRNA_5"
+                     /product="ribosomal RNA-23S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            35237..35355
+                     /gene="rrnA-5S"
+                     /locus_tag="BSU_rRNA_26"
+     rRNA            35237..35355
+                     /gene="rrnA-5S"
+                     /locus_tag="BSU_rRNA_26"
+                     /product="ribosomal RNA-5S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            35531..35725
+                     /gene="csfB"
+                     /locus_tag="BSU00240"
+     CDS             35531..35725
+                     /gene="csfB"
+                     /locus_tag="BSU00240"
+                     /function="16.5: Explore"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15044948, 8759874;
+                     Product type cp: cell process"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="forespore-specific protein"
+                     /protein_id="CAB11800.1"
+                     /db_xref="GI:2632291"
+     gene            35845..36459
+                     /gene="xpaC"
+                     /locus_tag="BSU00250"
+     CDS             35845..36459
+                     /gene="xpaC"
+                     /locus_tag="BSU00250"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative phosphatase"
+                     /protein_id="CAB11801.1"
+                     /db_xref="GI:2632292"
+     gene            36478..37638
+                     /gene="yaaN"
+                     /locus_tag="BSU00260"
+     CDS             36478..37638
+                     /gene="yaaN"
+                     /locus_tag="BSU00260"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function; PubMedId: 12533473"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11802.1"
+                     /db_xref="GI:2632293"
+     gene            37720..39162
+                     /gene="yaaO"
+                     /locus_tag="BSU00270"
+     CDS             37720..39162
+                     /gene="yaaO"
+                     /locus_tag="BSU00270"
+                     /EC_number="4.1.1.-"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 9723923; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative lysine decarboxylase"
+                     /protein_id="CAB11803.1"
+                     /db_xref="GI:2632294"
+     gene            39159..39797
+                     /gene="tmk"
+                     /locus_tag="BSU00280"
+     CDS             39159..39797
+                     /gene="tmk"
+                     /locus_tag="BSU00280"
+                     /EC_number="2.7.4.9"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 9696781;
+                     Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="thymidylate kinase"
+                     /protein_id="CAB11804.2"
+                     /db_xref="GI:225184644"
+     gene            39871..40200
+                     /gene="yaaQ"
+                     /locus_tag="BSU00290"
+     CDS             39871..40200
+                     /gene="yaaQ"
+                     /locus_tag="BSU00290"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function; PubMedId: 10913081"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11805.1"
+                     /db_xref="GI:2632296"
+     gene            40213..40653
+                     /gene="yaaR"
+                     /locus_tag="BSU00300"
+     CDS             40213..40653
+                     /gene="yaaR"
+                     /locus_tag="BSU00300"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11806.1"
+                     /db_xref="GI:2632297"
+     gene            40665..41654
+                     /gene="holB"
+                     /locus_tag="BSU00310"
+     CDS             40665..41654
+                     /gene="holB"
+                     /locus_tag="BSU00310"
+                     /EC_number="2.7.7.7"
+                     /function="16.9: Replicate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12060778, 12682299,
+                     8509334; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase III delta' subunit"
+                     /protein_id="CAB11807.1"
+                     /db_xref="GI:2632298"
+     gene            41657..42484
+                     /gene="yaaT"
+                     /locus_tag="BSU00320"
+     CDS             41657..42484
+                     /gene="yaaT"
+                     /locus_tag="BSU00320"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function; PubMedId: 12270811"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11808.1"
+                     /db_xref="GI:2632299"
+     gene            42499..42858
+                     /gene="yabA"
+                     /locus_tag="BSU00330"
+     CDS             42499..42858
+                     /gene="yabA"
+                     /locus_tag="BSU00330"
+                     /function="16.9: Replicate"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15927750, 16461910;
+                     Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="subunit of the DNA replication complex"
+                     /protein_id="CAB11809.1"
+                     /db_xref="GI:2632300"
+     gene            42917..43660
+                     /gene="yabB"
+                     /locus_tag="BSU00340"
+     CDS             42917..43660
+                     /gene="yabB"
+                     /locus_tag="BSU00340"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative methyltransferase"
+                     /protein_id="CAB11810.1"
+                     /db_xref="GI:2632301"
+     gene            43647..43946
+                     /gene="yazA"
+                     /locus_tag="BSU00350"
+     CDS             43647..43946
+                     /gene="yazA"
+                     /locus_tag="BSU00350"
+                     /function="16.6: Maintain"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 11483577; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative UvrC-Intron-type (URI) endonuclease"
+                     /protein_id="CAB11811.1"
+                     /db_xref="GI:2632302"
+     gene            43921..44799
+                     /gene="yabC"
+                     /locus_tag="BSU00360"
+     CDS             43921..44799
+                     /gene="yabC"
+                     /locus_tag="BSU00360"
+                     /function="16.8: Protect"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 16014871; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative methyltransferase"
+                     /protein_id="CAB11812.1"
+                     /db_xref="GI:2632303"
+     gene            complement(44848..45138)
+                     /gene="abrB"
+                     /locus_tag="BSU00370"
+     CDS             complement(44848..45138)
+                     /gene="abrB"
+                     /locus_tag="BSU00370"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16159768, 16223496,
+                     16702211, 10754235, 10809710, 11101881, 11101897; Product
+                     type r: regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator for transition state
+                     genes"
+                     /protein_id="CAB11813.1"
+                     /db_xref="GI:2632304"
+     gene            45633..47627
+                     /gene="metS"
+                     /locus_tag="BSU00380"
+     CDS             45633..47627
+                     /gene="metS"
+                     /locus_tag="BSU00380"
+                     /EC_number="6.1.1.10"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11233169, 12682299, 12792655; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="methionyl-tRNA synthetase"
+                     /protein_id="CAB11814.1"
+                     /db_xref="GI:2632305"
+     gene            47706..48473
+                     /gene="yabD"
+                     /locus_tag="BSU00390"
+     CDS             47706..48473
+                     /gene="yabD"
+                     /locus_tag="BSU00390"
+                     /EC_number="3.1.21.-"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 10747959, 16014871; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="metal-dependent DNase"
+                     /protein_id="CAB11815.1"
+                     /db_xref="GI:2632306"
+     gene            48629..49942
+                     /gene="yabE"
+                     /locus_tag="BSU00400"
+     CDS             48629..49942
+                     /gene="yabE"
+                     /locus_tag="BSU00400"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 15774001, 19047346; Product type pe:
+                     putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative cell wall shaping enzyme"
+                     /protein_id="CAB11816.1"
+                     /db_xref="GI:2632307"
+     misc_RNA        complement(49264..50013)
+                     /gene="bsrJ"
+                     /locus_tag="BSU_misc_RNA_X"
+                     /db_xref="PubMed:19170879"
+     gene            50087..50647
+                     /gene="rnmV"
+                     /locus_tag="BSU00410"
+     CDS             50087..50647
+                     /gene="rnmV"
+                     /locus_tag="BSU00410"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11233981, 11976317,
+                     12794188, 16077031; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribonuclease M5"
+                     /protein_id="CAB11817.1"
+                     /db_xref="GI:2632308"
+     gene            50640..51518
+                     /gene="ksgA"
+                     /locus_tag="BSU00420"
+     CDS             50640..51518
+                     /gene="ksgA"
+                     /locus_tag="BSU00420"
+                     /EC_number="2.1.1.-"
+                     /function="16.8: Protect"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11327780, 6801425, 99430; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="dimethyladenosine 16S ribosomal RNA transferase"
+                     /protein_id="CAB11818.1"
+                     /db_xref="GI:2632309"
+     gene            51680..52552
+                     /gene="yabG"
+                     /locus_tag="BSU00430"
+     CDS             51680..52552
+                     /gene="yabG"
+                     /locus_tag="BSU00430"
+                     /function="16.5: Explore"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10714992, 11040425,
+                     16751597, 19060142; Product type cp: cell process"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="sporulation-specific protease"
+                     /protein_id="CAB11819.1"
+                     /db_xref="GI:2632310"
+     gene            52763..53023
+                     /gene="veg"
+                     /locus_tag="BSU00440"
+     CDS             52763..53023
+                     /gene="veg"
+                     /locus_tag="BSU00440"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function; PubMedId: 12761295"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11820.1"
+                     /db_xref="GI:2632311"
+     gene            53183..53368
+                     /gene="sspF"
+                     /locus_tag="BSU00450"
+     CDS             53183..53368
+                     /gene="sspF"
+                     /locus_tag="BSU00450"
+                     /function="16.5: Explore"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11092849, 7959056,
+                     8982008; Product type cp: cell process"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="small acid-soluble spore protein
+                     (alpha/beta-type SASP)"
+                     /protein_id="CAB11821.1"
+                     /db_xref="GI:2632312"
+     gene            53516..54385
+                     /gene="ispE"
+                     /locus_tag="BSU00460"
+     CDS             53516..54385
+                     /gene="ispE"
+                     /locus_tag="BSU00460"
+                     /EC_number="2.7.1.148"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11361082, 12682299, 12771135, 17458547; Product
+                     type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="4-(cytidine
+                     5'-diphospho)-2-C-methyl-D-erythritol kinase"
+                     /protein_id="CAB11822.1"
+                     /db_xref="GI:2632313"
+     gene            54441..55298
+                     /gene="purR"
+                     /locus_tag="BSU00470"
+     CDS             54441..55298
+                     /gene="purR"
+                     /locus_tag="BSU00470"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11591660, 12837783,
+                     12837784, 15629952, 16163456; Product type r: regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator of the purine
+                     biosynthesis operon"
+                     /protein_id="CAB11823.1"
+                     /db_xref="GI:2632314"
+     gene            55295..55672
+                     /gene="yabJ"
+                     /locus_tag="BSU00480"
+     CDS             55295..55672
+                     /gene="yabJ"
+                     /locus_tag="BSU00480"
+                     /function="16.3: Control"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 12515541, 14729707, 10557275,
+                     10919400, 10368157; Product type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative enzyme resulting in alteration of gene
+                     expression"
+                     /protein_id="CAB11824.1"
+                     /db_xref="GI:2632315"
+     gene            55866..56159
+                     /gene="spoVG"
+                     /locus_tag="BSU00490"
+     CDS             55866..56159
+                     /gene="spoVG"
+                     /locus_tag="BSU00490"
+                     /function="16.13: Shape"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16428420, 10648512,
+                     9733708, 10348850; Product type r: regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="regulator required for spore cortex synthesis
+                     (stage V sporulation)"
+                     /protein_id="CAB11825.1"
+                     /db_xref="GI:2632316"
+     gene            56352..57722
+                     /gene="gcaD"
+                     /locus_tag="BSU00500"
+     CDS             56352..57722
+                     /gene="gcaD"
+                     /locus_tag="BSU00500"
+                     /EC_number="2.7.7.23"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 1328164, 8522540,
+                     9648743; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="UDP-N-acetylglucosamine pyrophosphorylase"
+                     /protein_id="CAB11826.1"
+                     /db_xref="GI:2632317"
+     gene            57745..58698
+                     /gene="prs"
+                     /locus_tag="BSU00510"
+     CDS             57745..58698
+                     /gene="prs"
+                     /locus_tag="BSU00510"
+                     /EC_number="2.7.6.1"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 2169413, 3038693,
+                     8522540; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phosphoribosylpyrophosphate synthetase"
+                     /protein_id="CAB11827.1"
+                     /db_xref="GI:2632318"
+     gene            58783..59397
+                     /gene="ctc"
+                     /locus_tag="BSU00520"
+     CDS             58783..59397
+                     /gene="ctc"
+                     /locus_tag="BSU00520"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.6: Maintain"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12432960, 8522540,
+                     9669336, 10369900; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein Ctc, binding 5S RNA"
+                     /protein_id="CAB11828.1"
+                     /db_xref="GI:2632319"
+     gene            59504..60070
+                     /gene="pth"
+                     /locus_tag="BSU00530"
+     CDS             59504..60070
+                     /gene="pth"
+                     /locus_tag="BSU00530"
+                     /EC_number="3.1.1.29"
+                     /function="16.8: Protect"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12100553, 12682299, 8635758; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="peptidyl-tRNA hydrolase"
+                     /protein_id="CAB11829.1"
+                     /db_xref="GI:2632320"
+     gene            60130..60360
+                     /gene="yabK"
+                     /locus_tag="BSU00540"
+     CDS             60130..60360
+                     /gene="yabK"
+                     /locus_tag="BSU00540"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11830.1"
+                     /db_xref="GI:2632321"
+     gene            60430..63963
+                     /gene="mfd"
+                     /locus_tag="BSU00550"
+     CDS             60430..63963
+                     /gene="mfd"
+                     /locus_tag="BSU00550"
+                     /function="16.6: Maintain"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11065368, 16950921,
+                     8594198, 9535092; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcription-repair coupling factor"
+                     /protein_id="CAB11831.1"
+                     /db_xref="GI:2632322"
+     gene            64099..64635
+                     /gene="spoVT"
+                     /locus_tag="BSU00560"
+     CDS             64099..64635
+                     /gene="spoVT"
+                     /locus_tag="BSU00560"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15063493, 15939023,
+                     16159768, 18996130, 8755877; Product type r: regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator"
+                     /protein_id="CAB11832.1"
+                     /db_xref="GI:2632323"
+     gene            64817..66415
+                     /gene="yabM"
+                     /locus_tag="BSU00570"
+     CDS             64817..66415
+                     /gene="yabM"
+                     /locus_tag="BSU00570"
+                     /function="16.1: Circulate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 15849754, 16850406; Product type pt:
+                     putative transporter"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exporter"
+                     /protein_id="CAB11833.1"
+                     /db_xref="GI:2632324"
+     gene            66405..67874
+                     /gene="yabN"
+                     /locus_tag="BSU00580"
+     CDS             66405..67874
+                     /gene="yabN"
+                     /locus_tag="BSU00580"
+                     /function="16.6: Maintain"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 11178267; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative fusion methylase and nucleotide
+                     pyrophosphohydrolase"
+                     /protein_id="CAB11834.1"
+                     /db_xref="GI:2632325"
+     gene            67877..68137
+                     /gene="yabO"
+                     /locus_tag="BSU00590"
+     CDS             67877..68137
+                     /gene="yabO"
+                     /locus_tag="BSU00590"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 10675343, 10675344; Product type pf:
+                     putative factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative ribosomal RNA binding protein; heat
+                     shock protein"
+                     /protein_id="CAB11835.1"
+                     /db_xref="GI:2632326"
+     gene            68216..68518
+                     /gene="yabP"
+                     /locus_tag="BSU00600"
+     CDS             68216..68518
+                     /gene="yabP"
+                     /locus_tag="BSU00600"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11283287, 15231775,
+                     10869437; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="spore protein involved in the shaping of the
+                     spore coat"
+                     /protein_id="CAB11836.1"
+                     /db_xref="GI:2632327"
+     gene            68515..69150
+                     /gene="yabQ"
+                     /locus_tag="BSU00610"
+     CDS             68515..69150
+                     /gene="yabQ"
+                     /locus_tag="BSU00610"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11283287, 15849754,
+                     16850406, 10869437; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="membrane protein of the forespore"
+                     /protein_id="CAB11837.1"
+                     /db_xref="GI:2632328"
+     gene            69168..69545
+                     /gene="divIC"
+                     /locus_tag="BSU00620"
+     CDS             69168..69545
+                     /gene="divIC"
+                     /locus_tag="BSU00620"
+                     /function="16.9: Replicate"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11283287, 11994149,
+                     12682299, 16936019; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell-division initiation protein"
+                     /protein_id="CAB11838.1"
+                     /db_xref="GI:2632329"
+     gene            69626..70012
+                     /gene="yabR"
+                     /locus_tag="BSU00630"
+     CDS             69626..70012
+                     /gene="yabR"
+                     /locus_tag="BSU00630"
+                     /EC_number="2.7.-.-"
+                     /function="16.6: Maintain"
+                     /function="16.3: Control"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 15066026, 16014871, 9862121; Product
+                     type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative RNA degradation protein;
+                     polyribonucleotide nucleotidyltransferase or
+                     phosphorylase"
+                     /protein_id="CAB11839.1"
+                     /db_xref="GI:2632330"
+     gene            70181..70257
+                     /gene="trnSL-Met1"
+                     /locus_tag="BSU_tRNA_10"
+     tRNA            70181..70257
+                     /gene="trnSL-Met1"
+                     /locus_tag="BSU_tRNA_10"
+                     /product="tRNA-Met"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            70267..70338
+                     /gene="trnSL-Glu1"
+                     /locus_tag="BSU_tRNA_11"
+     tRNA            70267..70338
+                     /gene="trnSL-Glu1"
+                     /locus_tag="BSU_tRNA_11"
+                     /product="tRNA-Glu"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            70538..73021
+                     /gene="spoIIE"
+                     /locus_tag="BSU00640"
+     CDS             70538..73021
+                     /gene="spoIIE"
+                     /locus_tag="BSU00640"
+                     /EC_number="3.1.3.16"
+                     /function="16.3: Control"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10747015, 12180929,
+                     15126482, 15866939, 15978076; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="serine phosphatase"
+                     /protein_id="CAB11840.1"
+                     /db_xref="GI:2632331"
+     gene            73106..73843
+                     /gene="yabS"
+                     /locus_tag="BSU00650"
+     CDS             73106..73843
+                     /gene="yabS"
+                     /locus_tag="BSU00650"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 4: Homologs of previously reported genes
+                     of unknown function"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="conserved hypothetical protein"
+                     /protein_id="CAB11841.1"
+                     /db_xref="GI:2632332"
+     gene            73809..74825
+                     /gene="yabT"
+                     /locus_tag="BSU00660"
+     CDS             73809..74825
+                     /gene="yabT"
+                     /locus_tag="BSU00660"
+                     /EC_number="2.7.11.1"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative serine/threonine-protein kinase"
+                     /protein_id="CAB11842.2"
+                     /db_xref="GI:32468688"
+     gene            74929..76347
+                     /gene="tilS"
+                     /locus_tag="BSU00670"
+     CDS             74929..76347
+                     /gene="tilS"
+                     /locus_tag="BSU00670"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299, 14527414, 16039592, 17005971; Product
+                     type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tRNAile lysidine synthetase"
+                     /protein_id="CAB11843.1"
+                     /db_xref="GI:2632334"
+     gene            76344..76886
+                     /gene="hprT"
+                     /locus_tag="BSU00680"
+     CDS             76344..76886
+                     /gene="hprT"
+                     /locus_tag="BSU00680"
+                     /EC_number="2.4.2.8"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 3110131, 6408059; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypoxanthine-guanine phosphoribosyltransferase"
+                     /protein_id="CAB11844.1"
+                     /db_xref="GI:2632335"
+     gene            76984..78897
+                     /gene="ftsH"
+                     /locus_tag="BSU00690"
+     CDS             76984..78897
+                     /gene="ftsH"
+                     /locus_tag="BSU00690"
+                     /EC_number="3.4.24.-"
+                     /function="16.9: Replicate"
+                     /function="16.13: Shape"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10851010, 10913836,
+                     12533473, 9076729, 9084181, 9287010, 9352926; Product type
+                     e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cell-division protein and general stress protein
+                     (class III heat-shock)"
+                     /protein_id="CAB11845.1"
+                     /db_xref="GI:2632336"
+     gene            79092..79868
+                     /gene="coaX"
+                     /locus_tag="BSU00700"
+     CDS             79092..79868
+                     /gene="coaX"
+                     /locus_tag="BSU00700"
+                     /EC_number="2.7.1.33"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15795230, 16905099;
+                     Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="pantothenate kinase"
+                     /protein_id="CAB11846.2"
+                     /db_xref="GI:225184645"
+     gene            79880..80755
+                     /gene="hslO"
+                     /locus_tag="BSU00710"
+     CDS             79880..80755
+                     /gene="hslO"
+                     /locus_tag="BSU00710"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11323724, 15023991; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="disulfide bond chaperone (heat shock protein
+                     HSP33)"
+                     /protein_id="CAB11847.1"
+                     /db_xref="GI:2632338"
+     gene            80802..81695
+                     /gene="yacD"
+                     /locus_tag="BSU00720"
+     CDS             80802..81695
+                     /gene="yacD"
+                     /locus_tag="BSU00720"
+                     /function="16.1: Circulate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 15187182, 15856219; Product type pf:
+                     putative factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative protein secretion PrsA homolog"
+                     /protein_id="CAB11848.1"
+                     /db_xref="GI:2632339"
+     gene            81771..82697
+                     /gene="cysK"
+                     /locus_tag="BSU00730"
+     CDS             81771..82697
+                     /gene="cysK"
+                     /locus_tag="BSU00730"
+                     /EC_number="2.5.1.47"
+                     /function="16.3: Control"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11390694, 16267287,
+                     16513748; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cysteine synthase"
+                     /protein_id="CAB11849.1"
+                     /db_xref="GI:2632340"
+     gene            82864..84276
+                     /gene="pabB"
+                     /locus_tag="BSU00740"
+     CDS             82864..84276
+                     /gene="pabB"
+                     /locus_tag="BSU00740"
+                     /EC_number="2.6.1.85"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16605270, 17114263, 2123867, 9084182; Product
+                     type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="4-amino-4-deoxychorismate synthase
+                     (para-aminobenzoate synthase)"
+                     /protein_id="CAB11850.1"
+                     /db_xref="GI:2632341"
+     gene            84290..84874
+                     /gene="pabA"
+                     /locus_tag="BSU00750"
+     CDS             84290..84874
+                     /gene="pabA"
+                     /locus_tag="BSU00750"
+                     /EC_number="2.6.1.85"
+                     /EC_number="4.1.3.27"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16605270, 17114263, 9098056; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="4-amino-4-deoxychorismate synthase; anthranilate
+                     synthase (subunit II)"
+                     /protein_id="CAB11851.1"
+                     /db_xref="GI:2632342"
+     gene            84874..85755
+                     /gene="pabC"
+                     /locus_tag="BSU00760"
+     CDS             84874..85755
+                     /gene="pabC"
+                     /locus_tag="BSU00760"
+                     /EC_number="4.1.3.38"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 10876155, 1644759; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="4-amino-4-deoxychorismate pyruvate-lyase"
+                     /protein_id="CAB11852.1"
+                     /db_xref="GI:2632343"
+     gene            85737..86594
+                     /gene="sul"
+                     /locus_tag="BSU00770"
+     CDS             85737..86594
+                     /gene="sul"
+                     /locus_tag="BSU00770"
+                     /EC_number="2.5.1.15"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11007651, 2123867; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="dihydropteroate synthase"
+                     /protein_id="CAB11853.1"
+                     /db_xref="GI:2632344"
+     gene            86587..86949
+                     /gene="folB"
+                     /locus_tag="BSU00780"
+     CDS             86587..86949
+                     /gene="folB"
+                     /locus_tag="BSU00780"
+                     /EC_number="4.1.2.25"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16188473, 17176045, 17388809; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="dihydroneopterin aldolase"
+                     /protein_id="CAB11854.1"
+                     /db_xref="GI:2632345"
+     gene            86946..87449
+                     /gene="folK"
+                     /locus_tag="BSU00790"
+     CDS             86946..87449
+                     /gene="folK"
+                     /locus_tag="BSU00790"
+                     /EC_number="2.7.6.3"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 17029412; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="7,8-dihydro-6-hydroxymethylpterin
+                     pyrophosphokinase"
+                     /protein_id="CAB11855.1"
+                     /db_xref="GI:2632346"
+     gene            87401..87610
+                     /gene="yazB"
+                     /locus_tag="BSU00800"
+     CDS             87401..87610
+                     /gene="yazB"
+                     /locus_tag="BSU00800"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pr: putative regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transcriptional regulator"
+                     /protein_id="CAB11856.1"
+                     /db_xref="GI:2632347"
+     gene            87634..88635
+                     /gene="dusB"
+                     /locus_tag="BSU00810"
+     CDS             87634..88635
+                     /gene="dusB"
+                     /locus_tag="BSU00810"
+                     /EC_number="1.-.-.-"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.3: Control"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11983710, 15698474; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tRNA-dihydrouridine synthase B"
+                     /protein_id="CAB11857.1"
+                     /db_xref="GI:2632348"
+     gene            88727..90226
+                     /gene="lysS"
+                     /locus_tag="BSU00820"
+     CDS             88727..90226
+                     /gene="lysS"
+                     /locus_tag="BSU00820"
+                     /EC_number="6.1.1.6"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 14623972;
+                     Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lysyl-tRNA synthetase"
+                     /protein_id="CAB11858.1"
+                     /db_xref="GI:2632349"
+     gene            90536..92089
+                     /gene="rrnJ-16S"
+                     /locus_tag="BSU_rRNA_6"
+     rRNA            90536..92089
+                     /gene="rrnJ-16S"
+                     /locus_tag="BSU_rRNA_6"
+                     /product="ribosomal RNA-16S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            92254..95181
+                     /gene="rrnJ-23S"
+                     /locus_tag="BSU_rRNA_7"
+     rRNA            92254..95181
+                     /gene="rrnJ-23S"
+                     /locus_tag="BSU_rRNA_7"
+                     /product="ribosomal RNA-23S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95237..95354
+                     /gene="rrnJ-5S"
+                     /locus_tag="BSU_rRNA_8"
+     rRNA            95237..95354
+                     /gene="rrnJ-5S"
+                     /locus_tag="BSU_rRNA_8"
+                     /product="ribosomal RNA-5S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95375..95450
+                     /gene="trnJ-Val"
+                     /locus_tag="BSU_tRNA_12"
+     tRNA            95375..95450
+                     /gene="trnJ-Val"
+                     /locus_tag="BSU_tRNA_12"
+                     /product="tRNA-Val"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95455..95530
+                     /gene="trnJ-Thr"
+                     /locus_tag="BSU_tRNA_13"
+     tRNA            95455..95530
+                     /gene="trnJ-Thr"
+                     /locus_tag="BSU_tRNA_13"
+                     /product="tRNA-Thr"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95567..95642
+                     /gene="trnJ-Lys"
+                     /locus_tag="BSU_tRNA_14"
+     tRNA            95567..95642
+                     /gene="trnJ-Lys"
+                     /locus_tag="BSU_tRNA_14"
+                     /product="tRNA-Lys"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95649..95731
+                     /gene="trnJ-Leu1"
+                     /locus_tag="BSU_tRNA_15"
+     tRNA            95649..95731
+                     /gene="trnJ-Leu1"
+                     /locus_tag="BSU_tRNA_15"
+                     /product="tRNA-Leu"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95772..95846
+                     /gene="trnJ-Gly"
+                     /locus_tag="BSU_tRNA_16"
+     tRNA            95772..95846
+                     /gene="trnJ-Gly"
+                     /locus_tag="BSU_tRNA_16"
+                     /product="tRNA-Gly"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95861..95946
+                     /gene="trnJ-Leu2"
+                     /locus_tag="BSU_tRNA_17"
+     tRNA            95861..95946
+                     /gene="trnJ-Leu2"
+                     /locus_tag="BSU_tRNA_17"
+                     /product="tRNA-Leu"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            95956..96032
+                     /gene="trnJ-Arg"
+                     /locus_tag="BSU_tRNA_18"
+     tRNA            95956..96032
+                     /gene="trnJ-Arg"
+                     /locus_tag="BSU_tRNA_18"
+                     /product="tRNA-Arg"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            96060..96136
+                     /gene="trnJ-Pro"
+                     /locus_tag="BSU_tRNA_19"
+     tRNA            96060..96136
+                     /gene="trnJ-Pro"
+                     /locus_tag="BSU_tRNA_19"
+                     /product="tRNA-Pro"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            96146..96221
+                     /gene="trnJ-Ala"
+                     /locus_tag="BSU_tRNA_20"
+     tRNA            96146..96221
+                     /gene="trnJ-Ala"
+                     /locus_tag="BSU_tRNA_20"
+                     /product="tRNA-Ala"
+                     /inference="profile:tRNAscan:1.23"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism; Product
+                     type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            96392..97945
+                     /gene="rrnW-16S"
+                     /locus_tag="BSU_rRNA_9"
+     rRNA            96392..97945
+                     /gene="rrnW-16S"
+                     /locus_tag="BSU_rRNA_9"
+                     /product="ribosomal RNA-16S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            98110..101037
+                     /gene="rrnW-23S"
+                     /locus_tag="BSU_rRNA_10"
+     rRNA            98110..101037
+                     /gene="rrnW-23S"
+                     /locus_tag="BSU_rRNA_10"
+                     /product="ribosomal RNA-23S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            101093..101211
+                     /gene="rrnW-5S"
+                     /locus_tag="BSU_rRNA_11"
+     rRNA            101093..101211
+                     /gene="rrnW-5S"
+                     /locus_tag="BSU_rRNA_11"
+                     /product="ribosomal RNA-5S"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; Product type n: RNA"
+                     /function="16.2: Construct biomass (Anabolism)"
+     gene            101449..101913
+                     /gene="ctsR"
+                     /locus_tag="BSU00830"
+     CDS             101449..101913
+                     /gene="ctsR"
+                     /locus_tag="BSU00830"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11069659, 12618461,
+                     16163393, 9852015; Product type r: regulator"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcriptional regulator"
+                     /protein_id="CAB11859.1"
+                     /db_xref="GI:2632350"
+     gene            101927..102484
+                     /gene="mcsA"
+                     /locus_tag="BSU00840"
+     CDS             101927..102484
+                     /gene="mcsA"
+                     /locus_tag="BSU00840"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16163393; Product type f:
+                     factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="activator of protein kinase McsB"
+                     /protein_id="CAB11860.1"
+                     /db_xref="GI:2632351"
+     gene            102484..103575
+                     /gene="mcsB"
+                     /locus_tag="BSU00850"
+     CDS             102484..103575
+                     /gene="mcsB"
+                     /locus_tag="BSU00850"
+                     /EC_number="2.7.3.-"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 16163393, 17380125; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="protein tyrosine kinase"
+                     /protein_id="CAB11861.1"
+                     /db_xref="GI:2632352"
+     gene            103572..106004
+                     /gene="clpC"
+                     /locus_tag="BSU00860"
+     CDS             103572..106004
+                     /gene="clpC"
+                     /locus_tag="BSU00860"
+                     /function="16.6: Maintain"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12354604, 15529410,
+                     16525504; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="class III stress response-related ATPase, AAA+
+                     superfamily"
+                     /protein_id="CAB11862.1"
+                     /db_xref="GI:2632353"
+     gene            106096..107472
+                     /gene="radA"
+                     /locus_tag="BSU00870"
+     CDS             106096..107472
+                     /gene="radA"
+                     /locus_tag="BSU00870"
+                     /EC_number="2.1.1.63"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2b: Function of strongly homologous gene;
+                     PubMedId: 10931349, 11810266, 15317759; Product type e:
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA repair protein; 6-O-methylguanine-DNA
+                     methyltransferase"
+                     /protein_id="CAB11863.1"
+                     /db_xref="GI:2632354"
+     gene            107476..108558
+                     /gene="disA"
+                     /locus_tag="BSU00880"
+     CDS             107476..108558
+                     /gene="disA"
+                     /locus_tag="BSU00880"
+                     /function="16.6: Maintain"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16713562; Product type
+                     cp: cell process"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA integrity scanning protein; cell cycle
+                     checkpoint DNA scanning protein"
+                     /protein_id="CAB11864.1"
+                     /db_xref="GI:2632355"
+     gene            108674..109774
+                     /gene="yacL"
+                     /locus_tag="BSU00890"
+     CDS             108674..109774
+                     /gene="yacL"
+                     /locus_tag="BSU00890"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pm: putative membrane component"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative membrane protein"
+                     /protein_id="CAB11865.1"
+                     /db_xref="GI:2632356"
+     gene            109789..110487
+                     /gene="ispD"
+                     /locus_tag="BSU00900"
+     CDS             109789..110487
+                     /gene="ispD"
+                     /locus_tag="BSU00900"
+                     /EC_number="2.7.7.60"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299, 15044829, 15379557, 16533036,
+                     17081012, 17458547; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="2-C-methyl-D-erythritol 4-phosphate
+                     cytidylyltransferase, nonmevalonate isoprenoid pathway"
+                     /protein_id="CAB11866.1"
+                     /db_xref="GI:2632357"
+     gene            110480..110956
+                     /gene="ispF"
+                     /locus_tag="BSU00910"
+     CDS             110480..110956
+                     /gene="ispF"
+                     /locus_tag="BSU00910"
+                     /EC_number="4.6.1.12"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12270818, 12682299,
+                     17458547; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="2-C-methyl-D-erythritol-2,4-cyclodiphosphate
+                     synthase"
+                     /protein_id="CAB11867.1"
+                     /db_xref="GI:2632358"
+     gene            111047..112498
+                     /gene="gltX"
+                     /locus_tag="BSU00920"
+     CDS             111047..112498
+                     /gene="gltX"
+                     /locus_tag="BSU00920"
+                     /EC_number="6.1.1.17"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10024179, 10546897,
+                     12682299; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="glutamyl-tRNA synthetase"
+                     /protein_id="CAB11868.1"
+                     /db_xref="GI:2632359"
+     gene            112800..113453
+                     /gene="cysE"
+                     /locus_tag="BSU00930"
+     CDS             112800..113453
+                     /gene="cysE"
+                     /locus_tag="BSU00930"
+                     /EC_number="2.3.1.30"
+                     /function="16.3: Control"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10939241, 17056751,
+                     10737181, 7510287; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="serine acetyltransferase"
+                     /protein_id="CAB11869.1"
+                     /db_xref="GI:2632360"
+     gene            113450..114850
+                     /gene="cysS"
+                     /locus_tag="BSU00940"
+     CDS             113450..114850
+                     /gene="cysS"
+                     /locus_tag="BSU00940"
+                     /EC_number="6.1.1.16"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10024179, 10546897,
+                     10931887, 12682299; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cysteinyl-tRNA synthetase"
+                     /protein_id="CAB11870.1"
+                     /db_xref="GI:2632361"
+     gene            114854..115285
+                     /gene="mrnC"
+                     /locus_tag="BSU00950"
+     CDS             114854..115285
+                     /gene="mrnC"
+                     /locus_tag="BSU00950"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16014871; Product type e:
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribonuclease for 23S RNA maturation"
+                     /protein_id="CAB11871.1"
+                     /db_xref="GI:2632362"
+     gene            115269..116018
+                     /gene="rlmB"
+                     /locus_tag="BSU00960"
+     CDS             115269..116018
+                     /gene="rlmB"
+                     /locus_tag="BSU00960"
+                     /EC_number="2.1.1.-"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 11698387, 16014871; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="23S rRNA methyltransferase"
+                     /protein_id="CAB11872.1"
+                     /db_xref="GI:2632363"
+     gene            116025..116537
+                     /gene="yacP"
+                     /locus_tag="BSU00970"
+     CDS             116025..116537
+                     /gene="yacP"
+                     /locus_tag="BSU00970"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 17114934; Product type pe : putative
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative ribonuclease with PIN and NYN domains"
+                     /protein_id="CAB11873.1"
+                     /db_xref="GI:2632364"
+     gene            116600..117256
+                     /gene="sigH"
+                     /locus_tag="BSU00980"
+     CDS             116600..117256
+                     /gene="sigH"
+                     /locus_tag="BSU00980"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12169614, 16339734;
+                     Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA polymerase sigma-30 factor (sigma(H))"
+                     /protein_id="CAB11874.1"
+                     /db_xref="GI:2632365"
+     gene            117349..117498
+                     /gene="rpmGB"
+                     /locus_tag="BSU00990"
+     CDS             117349..117498
+                     /gene="rpmGB"
+                     /locus_tag="BSU00990"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299, 14586115; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L33"
+                     /protein_id="CAB11875.1"
+                     /db_xref="GI:2632366"
+     gene            117532..117711
+                     /gene="secE"
+                     /locus_tag="BSU01000"
+     CDS             117532..117711
+                     /gene="secE"
+                     /locus_tag="BSU01000"
+                     /function="16.1: Circulate"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11976315, 12682299,
+                     16242710; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="preprotein translocase subunit"
+                     /protein_id="CAB11876.1"
+                     /db_xref="GI:2632367"
+     gene            117890..118423
+                     /gene="nusG"
+                     /locus_tag="BSU01010"
+     CDS             117890..118423
+                     /gene="nusG"
+                     /locus_tag="BSU01010"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16014871, 16707701,
+                     18852477, 11101662; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="transcription antitermination factor"
+                     /protein_id="CAB11877.1"
+                     /db_xref="GI:2632368"
+     gene            118591..119016
+                     /gene="rplK"
+                     /locus_tag="BSU01020"
+     CDS             118591..119016
+                     /gene="rplK"
+                     /locus_tag="BSU01020"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11244072; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L11 (BL11)"
+                     /protein_id="CAB11878.2"
+                     /db_xref="GI:225184646"
+     gene            119111..119809
+                     /gene="rplA"
+                     /locus_tag="BSU01030"
+     CDS             119111..119809
+                     /gene="rplA"
+                     /locus_tag="BSU01030"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299, 16352840; Product type s : structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L1 (BL1)"
+                     /protein_id="CAB11879.2"
+                     /db_xref="GI:225184647"
+     gene            119855..119995
+                     /gene="L10"
+                     /locus_tag="BSU_misc_RNA_3"
+     misc_structure  119855..119995
+                     /gene="L10"
+                     /locus_tag="BSU_misc_RNA_3"
+                     /evidence="{Rfam-9.1}"
+                     /gene_name="L10_leader {Rfam-9.1}"
+                     /db_xref="Rfam:RF00557"
+                     /product="L10_leader"
+                     /inference="profile:Rfam:8.1"
+     gene            120061..120561
+                     /gene="rplJ"
+                     /locus_tag="BSU01040"
+     CDS             120061..120561
+                     /gene="rplJ"
+                     /locus_tag="BSU01040"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11341315, 12682299,
+                     9810686; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L10 (BL5)"
+                     /protein_id="CAB11880.2"
+                     /db_xref="GI:225184648"
+     gene            120607..120978
+                     /gene="rplL"
+                     /locus_tag="BSU01050"
+     CDS             120607..120978
+                     /gene="rplL"
+                     /locus_tag="BSU01050"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 6771249,
+                     8755892; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L12 (BL9)"
+                     /protein_id="CAB11881.1"
+                     /db_xref="GI:2632372"
+     gene            121068..121673
+                     /gene="ybxB"
+                     /locus_tag="BSU01060"
+     CDS             121068..121673
+                     /gene="ybxB"
+                     /locus_tag="BSU01060"
+                     /EC_number="2.1.1.52"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 17010380; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal RNA methyltransferase"
+                     /protein_id="CAB11882.1"
+                     /db_xref="GI:2632373"
+     gene            121919..125500
+                     /gene="rpoB"
+                     /locus_tag="BSU01070"
+     CDS             121919..125500
+                     /gene="rpoB"
+                     /locus_tag="BSU01070"
+                     /EC_number="2.7.7.6"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10049799, 10744988,
+                     12455702, 12682299, 15060052; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA polymerase (beta subunit)"
+                     /protein_id="CAB11883.2"
+                     /db_xref="GI:225184649"
+     gene            125562..129161
+                     /gene="rpoC"
+                     /locus_tag="BSU01080"
+     CDS             125562..129161
+                     /gene="rpoC"
+                     /locus_tag="BSU01080"
+                     /EC_number="2.7.7.6"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10672039, 10675340,
+                     10910724, 11029421, 9795209, 10438769; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA polymerase (beta' subunit)"
+                     /protein_id="CAB11884.2"
+                     /db_xref="GI:225184650"
+     gene            129340..129588
+                     /gene="rplGB"
+                     /locus_tag="BSU01090"
+     CDS             129340..129588
+                     /gene="rplGB"
+                     /locus_tag="BSU01090"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.8: Protect"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11574053, 11948165,
+                     17468242, 7657605; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="alternative ribosomal protein L7A"
+                     /protein_id="CAB11885.1"
+                     /db_xref="GI:2632376"
+     gene            129702..130118
+                     /gene="rpsL"
+                     /locus_tag="BSU01100"
+     CDS             129702..130118
+                     /gene="rpsL"
+                     /locus_tag="BSU01100"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11489846, 12682299,
+                     16484214; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12 (BS12)"
+                     /protein_id="CAB11886.2"
+                     /db_xref="GI:225184651"
+     gene            130160..130630
+                     /gene="rpsG"
+                     /locus_tag="BSU01110"
+     CDS             130160..130630
+                     /gene="rpsG"
+                     /locus_tag="BSU01110"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 8722036;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S7 (BS7)"
+                     /protein_id="CAB11887.2"
+                     /db_xref="GI:225184652"
+     gene            130684..132762
+                     /gene="fusA"
+                     /locus_tag="BSU01120"
+     CDS             130684..132762
+                     /gene="fusA"
+                     /locus_tag="BSU01120"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 1556067, 4629789, 815236,
+                     815243; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="elongation factor G"
+                     /protein_id="CAB11888.2"
+                     /db_xref="GI:225184653"
+     gene            132882..134072
+                     /gene="tufA"
+                     /locus_tag="BSU01130"
+     CDS             132882..134072
+                     /gene="tufA"
+                     /locus_tag="BSU01130"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10774755, 12682299,
+                     7706132; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="elongation factor Tu"
+                     /protein_id="CAB11889.1"
+                     /db_xref="GI:2632380"
+     gene            134171..135127
+                     /gene="ybaC"
+                     /locus_tag="BSU01140"
+     CDS             134171..135127
+                     /gene="ybaC"
+                     /locus_tag="BSU01140"
+                     /EC_number="3.4.11.5"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; Product type pe: putative enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative proline iminopeptidase"
+                     /protein_id="CAB11890.2"
+                     /db_xref="GI:225184654"
+     gene            135364..135672
+                     /gene="rpsJ"
+                     /locus_tag="BSU01150"
+     CDS             135364..135672
+                     /gene="rpsJ"
+                     /locus_tag="BSU01150"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S10 (BS13)"
+                     /protein_id="CAB11891.1"
+                     /db_xref="GI:2632382"
+     gene            135712..136341
+                     /gene="rplC"
+                     /locus_tag="BSU01160"
+     CDS             135712..136341
+                     /gene="rplC"
+                     /locus_tag="BSU01160"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L3 (BL3)"
+                     /protein_id="CAB11892.1"
+                     /db_xref="GI:2632383"
+     gene            136369..136992
+                     /gene="rplD"
+                     /locus_tag="BSU01170"
+     CDS             136369..136992
+                     /gene="rplD"
+                     /locus_tag="BSU01170"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 10898684, 12682299; Product type s : structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L4"
+                     /protein_id="CAB11893.1"
+                     /db_xref="GI:2632384"
+     gene            136992..137279
+                     /gene="rplW"
+                     /locus_tag="BSU01180"
+     CDS             136992..137279
+                     /gene="rplW"
+                     /locus_tag="BSU01180"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 6417453;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L23"
+                     /protein_id="CAB11894.2"
+                     /db_xref="GI:225184655"
+     gene            137311..138144
+                     /gene="rplB"
+                     /locus_tag="BSU01190"
+     CDS             137311..138144
+                     /gene="rplB"
+                     /locus_tag="BSU01190"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L2 (BL2)"
+                     /protein_id="CAB11895.2"
+                     /db_xref="GI:225184656"
+     gene            138202..138480
+                     /gene="rpsS"
+                     /locus_tag="BSU01200"
+     CDS             138202..138480
+                     /gene="rpsS"
+                     /locus_tag="BSU01200"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S19 (BS19)"
+                     /protein_id="CAB11896.1"
+                     /db_xref="GI:2632387"
+     gene            138497..138838
+                     /gene="rplV"
+                     /locus_tag="BSU01210"
+     CDS             138497..138838
+                     /gene="rplV"
+                     /locus_tag="BSU01210"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 7928988;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L22 (BL17)"
+                     /protein_id="CAB11897.1"
+                     /db_xref="GI:2632388"
+     gene            138842..139498
+                     /gene="rpsC"
+                     /locus_tag="BSU01220"
+     CDS             138842..139498
+                     /gene="rpsC"
+                     /locus_tag="BSU01220"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S3 (BS3)"
+                     /protein_id="CAB11898.2"
+                     /db_xref="GI:225184657"
+     gene            139500..139934
+                     /gene="rplP"
+                     /locus_tag="BSU01230"
+     CDS             139500..139934
+                     /gene="rplP"
+                     /locus_tag="BSU01230"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L16"
+                     /protein_id="CAB11899.1"
+                     /db_xref="GI:2632390"
+     gene            139924..140124
+                     /gene="rpmC"
+                     /locus_tag="BSU01240"
+     CDS             139924..140124
+                     /gene="rpmC"
+                     /locus_tag="BSU01240"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L29"
+                     /protein_id="CAB11900.1"
+                     /db_xref="GI:2632391"
+     gene            140147..140410
+                     /gene="rpsQ"
+                     /locus_tag="BSU01250"
+     CDS             140147..140410
+                     /gene="rpsQ"
+                     /locus_tag="BSU01250"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S17 (BS16)"
+                     /protein_id="CAB11901.1"
+                     /db_xref="GI:2632392"
+     gene            140451..140819
+                     /gene="rplNA"
+                     /locus_tag="BSU01260"
+     CDS             140451..140819
+                     /gene="rplNA"
+                     /locus_tag="BSU01260"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299, 8722036; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L14"
+                     /protein_id="CAB11902.1"
+                     /db_xref="GI:2632393"
+     gene            140857..141168
+                     /gene="rplX"
+                     /locus_tag="BSU01270"
+     CDS             140857..141168
+                     /gene="rplX"
+                     /locus_tag="BSU01270"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 11278078, 12682299;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L24 (BL23)"
+                     /protein_id="CAB11903.1"
+                     /db_xref="GI:2632394"
+     gene            141195..141734
+                     /gene="rplE"
+                     /locus_tag="BSU01280"
+     CDS             141195..141734
+                     /gene="rplE"
+                     /locus_tag="BSU01280"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L5 (BL6)"
+                     /protein_id="CAB11904.1"
+                     /db_xref="GI:2632395"
+     gene            141757..141942
+                     /gene="rpsNA"
+                     /locus_tag="BSU01290"
+     CDS             141757..141942
+                     /gene="rpsNA"
+                     /locus_tag="BSU01290"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 17163968;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S14"
+                     /protein_id="CAB11905.1"
+                     /db_xref="GI:2632396"
+     gene            141974..142372
+                     /gene="rpsH"
+                     /locus_tag="BSU01300"
+     CDS             141974..142372
+                     /gene="rpsH"
+                     /locus_tag="BSU01300"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S8 (BS8)"
+                     /protein_id="CAB11906.2"
+                     /db_xref="GI:225184658"
+     gene            142402..142941
+                     /gene="rplF"
+                     /locus_tag="BSU01310"
+     CDS             142402..142941
+                     /gene="rplF"
+                     /locus_tag="BSU01310"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L6 (BL8)"
+                     /protein_id="CAB11907.1"
+                     /db_xref="GI:2632398"
+     gene            142974..143336
+                     /gene="rplR"
+                     /locus_tag="BSU01320"
+     CDS             142974..143336
+                     /gene="rplR"
+                     /locus_tag="BSU01320"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L18"
+                     /protein_id="CAB11908.2"
+                     /db_xref="GI:225184659"
+     gene            143361..143861
+                     /gene="rpsE"
+                     /locus_tag="BSU01330"
+     CDS             143361..143861
+                     /gene="rpsE"
+                     /locus_tag="BSU01330"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 6211592;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S5"
+                     /protein_id="CAB11909.1"
+                     /db_xref="GI:2632400"
+     gene            143875..144054
+                     /gene="rpmD"
+                     /locus_tag="BSU01340"
+     CDS             143875..144054
+                     /gene="rpmD"
+                     /locus_tag="BSU01340"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 12682299; Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L30 (BL27)"
+                     /protein_id="CAB11910.1"
+                     /db_xref="GI:2632401"
+     gene            144085..144525
+                     /gene="rplO"
+                     /locus_tag="BSU01350"
+     CDS             144085..144525
+                     /gene="rplO"
+                     /locus_tag="BSU01350"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 15855514;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L15"
+                     /protein_id="CAB11911.1"
+                     /db_xref="GI:2632402"
+     gene            144527..145822
+                     /gene="secY"
+                     /locus_tag="BSU01360"
+     CDS             144527..145822
+                     /gene="secY"
+                     /locus_tag="BSU01360"
+                     /function="16.1: Circulate"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 15341641, 15849754,
+                     16850406, 9917412; Product type t: transporter"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="preprotein translocase subunit"
+                     /protein_id="CAB11912.1"
+                     /db_xref="GI:2632403"
+     gene            145877..146530
+                     /gene="adk"
+                     /locus_tag="BSU01370"
+     CDS             145877..146530
+                     /gene="adk"
+                     /locus_tag="BSU01370"
+                     /EC_number="2.7.4.3"
+                     /function="16.7: Manage energy"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 8061005; Product type e :
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="adenylate kinase"
+                     /protein_id="CAB11913.1"
+                     /db_xref="GI:2632404"
+     gene            146527..147273
+                     /gene="mapA"
+                     /locus_tag="BSU01380"
+     CDS             146527..147273
+                     /gene="mapA"
+                     /locus_tag="BSU01380"
+                     /EC_number="3.4.11.18"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.11: Scavenge (Catabolism)"
+                     /function="16.6: Maintain"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 16207374; Product type e:
+                     enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="methionine aminopeptidase"
+                     /protein_id="CAB11914.1"
+                     /db_xref="GI:2632405"
+     gene            147312..147536
+                     /gene="ybzG"
+                     /locus_tag="BSU01389"
+     CDS             147312..147536
+                     /gene="ybzG"
+                     /locus_tag="BSU01389"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 3: Function proposed based on presence of
+                     conserved amino acid motif, structural feature or limited
+                     homology; PubMedId: 17157877; Product type pf : putative
+                     factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative ribosomal protein"
+                     /protein_id="CAX52539.1"
+                     /db_xref="GI:225184660"
+     gene            147585..147803
+                     /gene="infA"
+                     /locus_tag="BSU01390"
+     CDS             147585..147803
+                     /gene="infA"
+                     /locus_tag="BSU01390"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /function="16.3: Control"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 9868784; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="initiation factor IF-I"
+                     /protein_id="CAB11915.1"
+                     /db_xref="GI:2632406"
+     gene            147837..147950
+                     /gene="rpmJ"
+                     /locus_tag="BSU01400"
+     CDS             147837..147950
+                     /gene="rpmJ"
+                     /locus_tag="BSU01400"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 2a: Function of homologous gene
+                     experimentally demonstrated in an other organism;
+                     PubMedId: 1783905; Product type f: factor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L36 (ribosomal protein B)"
+                     /protein_id="CAB11916.1"
+                     /db_xref="GI:2632407"
+     gene            147973..148338
+                     /gene="rpsM"
+                     /locus_tag="BSU01410"
+     CDS             147973..148338
+                     /gene="rpsM"
+                     /locus_tag="BSU01410"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S13"
+                     /protein_id="CAB11917.2"
+                     /db_xref="GI:225184661"
+     gene            148359..148754
+                     /gene="rpsK"
+                     /locus_tag="BSU01420"
+     CDS             148359..148754
+                     /gene="rpsK"
+                     /locus_tag="BSU01420"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299; Product type s:
+                     structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S11 (BS11)"
+                     /protein_id="CAB11918.1"
+                     /db_xref="GI:2632409"
+     gene            148931..149875
+                     /gene="rpoA"
+                     /locus_tag="BSU01430"
+     CDS             148931..149875
+                     /gene="rpoA"
+                     /locus_tag="BSU01430"
+                     /EC_number="2.7.7.6"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 10972808, 12682299,
+                     1484484, 6811591, 9594570; Product type e: enzyme"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RNA polymerase (alpha subunit)"
+                     /protein_id="CAB11919.1"
+                     /db_xref="GI:2632410"
+     gene            149953..150315
+                     /gene="rplQ"
+                     /locus_tag="BSU01440"
+     CDS             149953..150315
+                     /gene="rplQ"
+                     /locus_tag="BSU01440"
+                     /function="16.2: Construct biomass (Anabolism)"
+                     /inference="ab initio prediction:AMIGene:2.0"
+                     /note="Evidence 1a: Function experimentally demonstrated
+                     in the studied strain; PubMedId: 12682299, 6801428;
+                     Product type s: structure"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein L17 (BL15)"
+                     /protein_id="CAB11920.1"
+                     /db_xref="GI:2632411"
+ORIGIN
+//

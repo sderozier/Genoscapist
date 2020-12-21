@@ -1,0 +1,62 @@
+<!--
+#     name : nav
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+
+  <a class="navbar-brand" href="{{ path }}/" id="main"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16" transform="translate(0 -3)">
+    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
+    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"></path>
+  </svg>&nbsp;&nbsp;{{ name }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" target="_blank" href="references" id="ref">References</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" target="_blank" href="http://genoscapist.migale.inrae.fr/">Genoscapist website</a>
+        <a class="dropdown-item" target="_blank" href="http://genoscapist.migale.inrae.fr/demo">Website usage demonstration</a>
+        <a class="dropdown-item" href="contact" target="_blank" id="contact">Contact</a>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href='' id="geno" target='_blank'><img style="padding: .2rem;" src="{{ url_for('static', filename='img/logo_genoscapist_1x.png') }}" alt="Genoscapist" width="50%" align="right"/></a></li>
+    </ul>
+
+  <script>
+    $('#geno').attr("href", location.protocol + '//' + location.host);
+  </script>
+
+  </div>
+
+</nav>

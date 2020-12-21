@@ -1,0 +1,53 @@
+<!--
+#     name : contact.html
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+-->
+
+{% extends 'main' %}
+{% block content %}
+
+<section>
+
+  <div style="margin-top: 80px;"></div>
+
+  <div class="row" style="margin-left: 15px; margin-right: 15px;">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Mailing list</h5>
+          <p class="card-text">Send an email to our mailing list at <a href='mailto:genoscapist@inrae.fr' class="text-info">genoscapist@inrae.fr</a>.</p>
+          <a href="mailto:genoscapist@inrae.fr" class="btn btn-info">Send email</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">GitHub</h5>
+          <p class="card-text">Report a bug or request a feature at <a href="https://github.com/" class="text-info">https://github.com/...</a>.</p>
+          <a href="https://github.com/" class="btn btn-info">Go to GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+{% endblock %}

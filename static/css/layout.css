@@ -1,0 +1,154 @@
+/**
+#
+#     name : layout.css
+#
+#     Copyright (C) 2020  Sandra Dérozier (INRAE)
+#
+#     This program is free software; you can redistribute it and/or modify
+#     it under the terms of the GNU General Public License as published by
+#     the Free Software Foundation; either version 2 of the License, or
+#     (at your option) any later version.
+#
+#     This program is distributed in the hope that it will be useful,
+#     but WITHOUT ANY WARRANTY; without even the implied warranty of
+#     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#     GNU General Public License for more details.
+#
+#     You should have received a copy of the GNU General Public License
+#     along with this program; see the file COPYING . If not, write to the
+#     Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+#     Please send bugreports with examples or suggestions to
+#     sandra.derozier@inrae.fr
+**/
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    border: none;
+}
+
+nav,
+#left-div,
+#access-nav{
+  background: #6fc5e4; //#9BE4FF; //#58C6EF; //#78bfFF;
+}
+
+.navbar {
+  padding: .2rem 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav {
+  padding-left: 25px;
+}
+
+.ui-menu-item, .ui-menu-item-wrapper {
+  text-decoration: none;
+  background-color: None;
+}
+
+a {
+    color: #2A4C9D;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #6fc5e4; //#9BE4FF; //#78bfFF;
+    color: #2A4C9D;
+    padding: 4px 0px 4px 0px;
+    margin-top: 8px;
+}
+
+.dataTables_paginate {
+  width: 100%; //60%;
+  text-align: center;
+  display: block; //inline-block;
+  justify-content: center;
+}
+.page-link {
+    color: #6fc5e4;//#007bff;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: white;
+    background-color: #6fc5e4;//#007bff;
+    border-color: #6fc5e4;//#007bff;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    justify-content: center;
+}
+
+.dataTables_length, .dataTables_info {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.test {
+    border-color: #17A2B8; //#516EB0;
+    background-color: #17A2B8; //#516EB0;
+    border-radius: 30px; //10px;
+    padding-top: .3em;
+	}
+
+.color {
+  color: white;
+}
+
+.button-reverse {
+    background-color: white;
+    padding: 0 .5em;
+    border: 1.5px solid white;
+    border-bottom: 1.5px solid white;
+    border-radius: 3px;
+    color: #17A2B8; //#516EB0;
+    cursor: pointer;
+}
+
+.link {
+    cursor: pointer;
+    color: #17A2B8; //#516EB0;
+    text-decoration: underline;
+    text-decoration-color: #17A2B8; //#516EB0;
+}
+
+.h3-withoutborder {
+    color: #516EB0;
+}
+
+.h3-withborder {
+    color: white;
+    display: block;
+    text-align: center;
+    background-color: #516EB0;
+    border-radius: 30px;
+    padding: .4em 0 .4em 0;
+}
+
+/* Conditions & Segments tables */
+th.t_color {
+    background-color: #516EB0;
+    color: white;
+    text-align: center;
+}
+a.t_color {
+	color: white !important;
+}
+
+a:visited.t_color {
+	color: white !important;
+}
+
+td.yellow {
+    background-color: #FFFACD;
+    color: #516EB0;
+    text-align: center;
+}
