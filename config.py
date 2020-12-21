@@ -28,8 +28,8 @@ DEPLOY = "demo"
 
 # Specie Accession
 # Subtilis = AL009126 | Aureus = CP000253
-# SPECIE = "AL009126"
-SPECIE = "CP000253"
+SPECIE = "AL009126"
+#SPECIE = "CP000253"
 
 # Database Informations
 if SPECIE == "AL009126":
