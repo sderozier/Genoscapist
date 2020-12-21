@@ -28,7 +28,7 @@ dbname = 'seb_demo'                         # Database name
 dbuser = 'admin_user'                       # Database user name
 dbpasswd = 'sebadmin2020'                   # Database password
 dbhost = 'localhost'                        # Database host
-dbport = 5433                               # Database port
+dbport = 5432                               # Database port
 accession = "AL009126"
 normalization = ["CustomCDS", "Median"]
 
