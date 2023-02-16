@@ -43,3 +43,13 @@ class Gene:
         self.poscorval = poscorval
         self.negcorname = negcorname
         self.negcorval = negcorval
+
+class Deletion:
+
+    def __init__(self, id, name, start, stop, strand, type):
+
+        self.name = name
+        self.start = start
+        self.stop = stop
+        self.strand = strand
+        self.type = type
