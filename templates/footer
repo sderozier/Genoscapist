@@ -29,7 +29,7 @@
       {% else %}
       <td align="center" width="15%"><img alt="Transregio34" src="{{ url_for('static', filename='img/logo_transregio34_blanc.png') }}" height="52px"></td>
       {% endif %}
-      <td width="40%"><div align="center" class='color' style="font-size: small;">Copyright © 2020 INRAE - MaIAGE<br/>Last update: 16 December 2020</div></td>
+      <td width="40%"><div align="center" class='color' style="font-size: small;">Copyright © 2020 INRAE - MaIAGE<br/>Last update: 21 July 2021</div></td>
       <td width="15%"><a target="_blank" href="http://maiage.inrae.fr"><img align="left" src="{{ url_for('static', filename='img/logo_maiage_blanc.png') }}" height="30px"/></a></td>
       <td width="15%"><a target="_blank" href="http://inrae.fr"><img align="right" src="{{ url_for('static', filename='img/logo-inrae-blanc.png') }}" height="30px"/></a></td>
   </tr></table>

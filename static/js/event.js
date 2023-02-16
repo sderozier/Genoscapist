@@ -292,6 +292,10 @@ export function check_size_svg(norm, rho, specie) {
       else                              { $("#svg").attr("height", "820"); }
     }
   }
+
+  if ( sessionStorage.getItem("min_Median") == 0 ) {
+    $("#svg").attr("height", "950"); // 940
+  }
 }
 
 function def_start() {

@@ -43,6 +43,22 @@ $(document).ready( function () {
   });
   $('#genes_table').show();
   $('#spinner').remove();
+
+  $('#deletions_table').DataTable( {
+    "dom": '<"top"fl>rt<"bottom"lip>',
+    "lengthMenu": [[25, -1], [25, "All"]],
+    "iDisplayLength": 25,
+    // searching: false,
+    order: [[ 0, "asc" ]],
+    columnDefs: [
+      { "visible": false, targets: [0]}
+    ],
+    "oLanguage": {
+      "sSearch": "Search"
+    }
+  });
+  $('#deletions_table').show();
+  $('#del_spinner').remove();
 } );
 
 // Click on Gene name
@@ -79,6 +95,17 @@ $("span#clusterb").click(function(e) {
 $("span#clusterc").click(function(e) {
   $(this).css("font-weight","bold");
   location.assign(path+"/?cluster="+$(this).html());
+  e.stopPropagation();
+});
+
+// Click on Deletion name
+$("td#del_name").click(function(e) {
+  sessionStorage.setItem("deletion", $(this).html());
+  $(this).css("font-weight","bold");
+  var coord = $(this).attr("title").split('-');
+  var start = parseInt(coord[0]) - 2500;
+  var size = (parseInt(coord[1]) - parseInt(coord[0]) + 1) + 5000;
+  location.assign(path+"/viewer/?start="+start+"&size="+size);
   e.stopPropagation();
 });
 

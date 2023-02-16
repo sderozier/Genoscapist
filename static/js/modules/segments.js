@@ -21,7 +21,7 @@
 //     sandra.derozier@inrae.fr
 
 export function draw_segments(segment, seq_start, seq_stop, w_size, startY, seq_size, g_segment){
-  
+
     let y = 0; if ( segment.complement == '-1' ) { y = 20; }
     let startX = 0; let stopX = 0;
 
@@ -98,7 +98,7 @@ export function draw_segments(segment, seq_start, seq_stop, w_size, startY, seq_
     var f_seg = g_seg.append("rect")
                      .attr("x", startX+30)
                      .attr("y", startY+y)
-                     .attr("width", stopX-startX+1)
+                     .attr("width", stopX-startX) // stopX-startX+1
                      .attr("height", 10)
                      .style("fill", color)
                      .style("stroke", segment.color)

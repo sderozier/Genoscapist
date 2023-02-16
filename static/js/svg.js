@@ -26,6 +26,7 @@ import { draw_transterms } from './modules/transterms.js';
 import { draw_cds } from './modules/cds.js';
 import { draw_beaume } from './modules/beaume.js';
 import { draw_segments } from './modules/segments.js';
+import { draw_deletedRegions, draw_typeRegions, draw_regions } from './modules/deletedRegions.js';
 import { draw_promotors, draw_terminators, draw_lines } from './modules/trans_units.js';
 import { draw_profiles, draw_blanks, draw_no_data, draw_rho_regions } from './modules/profiles.js';
 import { add_feat_name, check_size_svg, check_svg } from './event.js';
@@ -48,6 +49,11 @@ sessionStorage.setItem("min_CustomCDS", min_CustomCDS);
 sessionStorage.setItem("max_CustomCDS", max_CustomCDS);
 sessionStorage.setItem("min_Median", min_Median);
 sessionStorage.setItem("max_Median", max_Median);
+if ( sessionStorage.getItem("min_Median") == 0 ) {
+  $("#normalisation").hide();
+  $('#button-rho').hide();
+  $('#divider').hide();
+}
 
 // Selected Experiences
 if ( selexp != '' ) {
@@ -188,7 +194,8 @@ function get_infos(locus) {
   function success(list_info) {
 
     let div = "";
-    if ( path.includes("seb") ) {
+    //if ( path.includes("seb") ) {
+    if ( path.includes("seb") || path.includes("smgeb") ) {
       div += "<a href = 'http://subtiwiki.uni-goettingen.de/v3/gene/search/exact/"+locus+"' target='_blank'> \
               <img src='"+path+"/img/subtiwiki.png' width='12%'></a>";
     }
@@ -698,6 +705,70 @@ function get_blank_region(start, stop, s_size, name, pos) {
     }
 
     $('#geno_spinner').hide();
+  });
+}
+
+// B. subtilis minimal genome
+if ( sessionStorage.getItem("min_Median") == 0 ) {  // A changer
+  // get_deletedRegions(d_start, (d_start+s_size-1), s_size);
+  get_regions(d_start, (d_start+s_size-1), s_size);
+  get_typeRegions(d_start, (d_start+s_size-1), s_size, "hole");
+  get_typeRegions(d_start, (d_start+s_size-1), s_size, "left scar");
+  get_typeRegions(d_start, (d_start+s_size-1), s_size, "right scar");
+  get_typeRegions(d_start, (d_start+s_size-1), s_size, "cassette");
+}
+function get_deletedRegions(start, stop, s_size) {
+
+  // let position = parseInt(list_features['segment']) * 100;
+  let position = 670;
+
+  d3.select("#deletedRegions").remove();
+
+  $.getJSON($SCRIPT_ROOT + '/_get_deletedRegions',
+  {
+    start: Math.ceil(start,10),
+    stop: Math.ceil(stop,10)
+  },
+  function success(list_deletedRegions) {
+
+    if ( jQuery.isEmptyObject(list_deletedRegions) == false ) {
+      var g_regions = svg.append("g").attr("id", "deletedRegions");
+
+      $.each(list_deletedRegions, function(i, deletedRegions){
+          draw_deletedRegions(deletedRegions, start, stop, (width-60), position, s_size, g_regions);
+        });
+    }
+  });
+}
+function get_regions(start, stop, s_size) {
+
+  let position = 670;
+  d3.select("#regions").remove();
+
+  var g_regions = svg.append("g").attr("id", "regions");
+  draw_regions(start, stop, (width-60), position, s_size, g_regions, svg);
+}
+function get_typeRegions(start, stop, s_size, type) {
+
+  let position = 670;
+
+  d3.select("#"+type.replace(' ', '_')+"Regions").remove();
+
+  $.getJSON($SCRIPT_ROOT + '/_get_typeRegions',
+  {
+    start: Math.ceil(start,10),
+    stop: Math.ceil(stop,10),
+    type: type
+  },
+  function success(list_typeRegions) {
+
+    if ( jQuery.isEmptyObject(list_typeRegions) == false ) {
+      var g_regions = svg.append("g").attr("id", type.replace(' ', '_')+"Regions");
+
+      $.each(list_typeRegions, function(i, typeRegions){
+          draw_typeRegions(typeRegions, start, stop, (width-60), position, s_size, g_regions);
+        });
+    }
   });
 }
 

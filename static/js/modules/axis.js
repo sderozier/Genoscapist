@@ -506,9 +506,18 @@ export function get_vbar(position, svg, s_size, d_start) {
       else { height = 1000-y2; }
     }
     else {
-      if ( sessionStorage.getItem("norm") == 'CustomCDS' ) { height = 1800-y2; }
-      else { height = 1900-y2; }
+      if ( sessionStorage.getItem("norm") == 'CustomCDS' ) { height = 2000-y2; } // 1800
+      else { height = 2300-y2; } // 1900
     }
+  }
+  else {
+    if ( name.includes("aureus") ) {
+      height = 900-y2;
+    }
+  }
+
+  if ( path == "/smgeb" ) {
+    height = 1000-y2;
   }
 
   // SVG writing

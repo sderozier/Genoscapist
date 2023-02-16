@@ -39,8 +39,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <button type="button" class="dropdown-item" data-toggle="modal" data-target="#exampleModal">Condition-dependent profile selection</button>
-          <button type="button" class="dropdown-item" data-toggle="modal" data-target="#rhoSelectionModal"><i>rho</i>-mutant profile selection</button>
-          <div class="dropdown-divider"></div>
+          <button type="button" id= "button-rho" class="dropdown-item" data-toggle="modal" data-target="#rhoSelectionModal"><i>rho</i>-mutant profile selection</button>
+          <div id="divider" class="dropdown-divider"></div>
           <button class="dropdown-item" type="button" id="normalisation">Switch to Median normalisation</button>
           <div class="dropdown-divider"></div>
           <button class="dropdown-item" type="button" id="add_feat">Add features names</button>
