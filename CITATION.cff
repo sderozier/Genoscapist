@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Dérozier
+    given-names: Sandra
+    orcid: https://orcid.org/0000-0003-4082-3813
+title: sderozier/genoscapist: Subtilis Minimal Genome Expression Browser Version
+version: v1.0-smgeb
+date-released: 2023-02-16
